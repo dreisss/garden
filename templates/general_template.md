@@ -1,0 +1,5 @@
+---
+createdAt: "{{date}}"
+tags: 
+aliases:
+---

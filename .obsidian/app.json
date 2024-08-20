@@ -1,0 +1,11 @@
+{
+  "vimMode": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "slipbox",
+  "attachmentFolderPath": "attachments",
+  "promptDelete": false,
+  "showRibbon": true,
+  "focusNewTab": false,
+  "foldHeading": true
+}
