@@ -1,5 +1,5 @@
 ---
 createdAt: "{{date}}"
 tags: 
-aliases:
+aliases: []
 ---

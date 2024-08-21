@@ -3,5 +3,7 @@
   "showViewHeader": true,
   "cssTheme": "AnuPpuccin",
   "textFontFamily": "Work Sans",
-  "accentColor": ""
+  "accentColor": "",
+  "baseFontSizeAction": true,
+  "baseFontSize": 17
 }
