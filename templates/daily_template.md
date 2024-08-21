@@ -1,5 +1,5 @@
 ---
-createdAt: "{{date}}"
+created_at: "{{date}}"
 tags:
   - daily
 aliases:

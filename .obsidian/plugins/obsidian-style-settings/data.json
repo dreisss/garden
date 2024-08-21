@@ -20,5 +20,12 @@
   "anuppuccin-theme-settings@@anp-card-layout-actions": true,
   "anuppuccin-theme-settings@@anp-card-layout-filebrowser": true,
   "anuppuccin-theme-settings@@anp-card-header-left-padding": 0,
-  "anuppuccin-theme-settings@@anp-card-layout-padding": 8
+  "anuppuccin-theme-settings@@anp-card-layout-padding": 8,
+  "anuppuccin-theme-settings@@anp-kanban-hide-card-menus": true,
+  "anuppuccin-theme-settings@@anp-kanban-card-spacing": 8,
+  "anuppuccin-theme-settings@@anp-kanban-hide-card-border": true,
+  "anuppuccin-theme-settings@@anp-kanban-lanes": true,
+  "anuppuccin-theme-settings@@anp-kanban-hide-lane-border": true,
+  "anuppuccin-theme-settings@@anp-kanban-search-full": false,
+  "anuppuccin-theme-settings@@anp-kanban-lane-opacity": 1
 }
