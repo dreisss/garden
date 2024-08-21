@@ -1,8 +1,7 @@
 ---
 createdAt: 2024-08-20
-tags: 
+tags:
+  - daily
 aliases:
-  - home
-  - Home
-  - Homepage
+  - "20"
 ---
