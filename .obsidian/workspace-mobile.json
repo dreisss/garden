@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "246471f893f9bf55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "slipbox/slip box.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e185c85ed5b8648d",
             "type": "leaf",
             "state": {
@@ -32,19 +20,19 @@
             }
           },
           {
-            "id": "42ef9742b00e7290",
+            "id": "b0d2d71029f7c945",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "daily/2024.08.20 (Tue).md",
+                "file": "daily/2024.08.21 (Wed).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b0d2d71029f7c945",
+            "id": "b310384815d04424",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -174,9 +162,17 @@
           "type": "calendar",
           "state": {}
         }
+      },
+      {
+        "id": "fb8fc878023007aa",
+        "type": "leaf",
+        "state": {
+          "type": "git-history-view",
+          "state": {}
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,13 +186,21 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "b0d2d71029f7c945",
+  "active": "b310384815d04424",
   "lastOpenFiles": [
-    "slipbox/homepage.md",
+    "daily/2024.08.21 (Wed).md",
     "daily/2024.08.20 (Tue).md",
+    "slipbox/finance.md",
+    "slipbox/homepage.md",
+    "templates/properties_template.md",
+    "/templates/properties_template.md",
+    "/templates/daily_template.md",
+    "/slipbox/homepage.md",
+    "/daily/2024.08.21 (Wed).md",
+    "/daily/2024.08.20 (Tue).md",
+    "slipbox/slip box.md",
     "slipbox/digital garden.md",
     "slipbox/personal knowledge management.md",
-    "slipbox/slip box.md",
     "slipbox/obsidian.md",
     "templates/daily_template.md",
     "templates/general_template.md",
