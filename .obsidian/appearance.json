@@ -5,5 +5,8 @@
   "textFontFamily": "Work Sans",
   "accentColor": "",
   "baseFontSizeAction": true,
-  "baseFontSize": 17
+  "baseFontSize": 17,
+  "enabledCssSnippets": [
+    "extended-colorschemes"
+  ]
 }

@@ -7,4 +7,6 @@ aliases:
 ---
 ## Thoughts
 
+### {{time}} 
+
 - 

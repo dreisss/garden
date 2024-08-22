@@ -1,11 +1,12 @@
 {
-  "vimMode": true,
+  "vimMode": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "slipbox",
+  "newFileFolderPath": "notes",
   "attachmentFolderPath": "attachments",
   "promptDelete": false,
   "showRibbon": false,
   "focusNewTab": false,
-  "foldHeading": true
+  "foldHeading": true,
+  "defaultViewMode": "source"
 }

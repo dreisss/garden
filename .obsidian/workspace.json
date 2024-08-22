@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c11290492cf8d6d5",
+        "id": "1b442461ae062e68",
         "type": "tabs",
         "children": [
           {
-            "id": "2299a98a3238ca74",
+            "id": "5dfcc24e510b4742",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2024.08.21 (Wed).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -65,13 +61,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "df19b8e4e908e17a",
@@ -80,7 +74,7 @@
       {
         "id": "32d0cc80d95afd85",
         "type": "tabs",
-        "dimension": 34.786821705426355,
+        "dimension": 41.35667396061269,
         "children": [
           {
             "id": "aa1cfa46beb0d678",
@@ -133,10 +127,10 @@
       {
         "id": "f0748e3dd0d0cd8b",
         "type": "tabs",
-        "dimension": 65.21317829457365,
+        "dimension": 58.64332603938731,
         "children": [
           {
-            "id": "20610104cf56b9e0",
+            "id": "f84652e9e3901bd9",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -175,57 +169,57 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352
+    "width": 351
   },
   "left-ribbon": {
     "hiddenItems": {
-      "homepage:Open homepage": false,
       "obsidian-kanban:Create new board": false,
+      "obsidian-file-cleaner:Clean files": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "homepage:Open homepage": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-file-cleaner:Clean files": false,
-      "obsidian42-brat:BRAT": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "20610104cf56b9e0",
+  "active": "5dfcc24e510b4742",
   "lastOpenFiles": [
-    "daily/2024.08.21 (Wed).md",
+    "notes/obsidian - hotkeys.md",
+    "daily/2024.08.22 (Thu).md",
     "daily/2024.08.20 (Tue).md",
-    "slipbox/recover excel file when computer suddenly shuts down (with .tmp file).md",
-    "templates/problem_solution_template.md",
-    "templates/properties_template.md",
-    "templates/Untitled 1.md",
+    "daily/2024.08.21 (Wed).md",
+    "templates/timed_note_template.md",
+    "templates/note_template.md",
     "templates/daily_template.md",
     "pages/homepage.md",
-    "slipbox/`$=`.md",
-    "slipbox/iasdjknalskdna.md",
-    "slipbox/Untitled 2.md",
-    "trees",
+    "notes/Untitled.md",
+    "math.md",
+    "2024-08-20.md",
+    "slipbox/recover excel file when computer suddenly shuts down (with .tmp file).md",
+    "slipbox",
+    "notes/difference between nixos-unstable and nixpkgs-unstable.md",
+    "notes/recover excel file when computer suddenly shuts down (with .tmp file).md",
+    "Untitled",
+    "templates/properties_template.md",
+    "slipbox/homepage.md",
     "pages",
-    "daily/2024.08.22 (Thu).md",
-    "daily/2024-08-20 (Tue).md",
+    "templates/reference_template.md",
+    "slipbox/slip box.md",
+    "templates/general_template.md",
+    "slipbox/personal knowledge management.md",
+    "slipbox/obsidian plugins.md",
     "slipbox/obsidian.md",
     "slipbox/digital garden.md",
-    "slipbox/personal knowledge management.md",
-    "slipbox/slip box.md",
-    "slipbox/Zettelkasten.md",
-    "templates/general_template.md",
-    "daily/2024-08-19 (Mon).md",
-    "slip box.md",
-    "Zettelkasten.md",
-    "zettels/Untitled.md",
-    "attachments/excalidraw/Drawing 2024-08-20 12.56.28.excalidraw.md",
+    "slipbox/clarinet.md",
+    "slipbox/Zettelkasten note-taking in 10 minutes.md",
+    "templates/article_template.md",
     "attachments/excalidraw",
-    "Excalidraw/Drawing 2024-08-20 12.49.21.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-20 12.49.10.excalidraw.md",
-    "Excalidraw",
-    "slipbox",
-    "templates",
     "attachments",
+    "Excalidraw",
+    "notes",
+    "templates",
     "daily"
   ]
 }

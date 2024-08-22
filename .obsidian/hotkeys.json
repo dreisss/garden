@@ -1,21 +1,4 @@
 {
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "B"
-    }
-  ],
-  "app:toggle-ribbon": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "B"
-    }
-  ],
   "editor:save-file": [
     {
       "modifiers": [
@@ -24,20 +7,14 @@
       "key": "W"
     }
   ],
-  "obsidian-excalidraw-plugin:save": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "W"
-    }
-  ],
+  "obsidian-excalidraw-plugin:save": [],
   "app:open-settings": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Shift"
       ],
-      "key": ","
+      "key": "/"
     }
   ],
   "command-palette:open": [
@@ -46,22 +23,6 @@
         "Alt"
       ],
       "key": "/"
-    }
-  ],
-  "workspace:split-horizontal": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "S"
-    }
-  ],
-  "workspace:split-vertical": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "V"
     }
   ],
   "workspace:close": [
@@ -73,88 +34,7 @@
     }
   ],
   "workspace:close-window": [],
-  "editor:focus-right": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "L"
-    }
-  ],
-  "editor:focus-left": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "H"
-    }
-  ],
-  "editor:focus-bottom": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "J"
-    }
-  ],
-  "editor:focus-top": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "K"
-    }
-  ],
-  "insert-template": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "T"
-    }
-  ],
-  "daily-notes": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "D"
-    }
-  ],
-  "daily-notes:goto-prev": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "D"
-    }
-  ],
-  "obsidian-file-cleaner:clean-files": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "C"
-    }
-  ],
-  "global-search:open": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "Key193"
-    }
-  ],
-  "file-explorer:open": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "F"
-    }
-  ],
+  "global-search:open": [],
   "switcher:open": [
     {
       "modifiers": [
@@ -177,6 +57,225 @@
         "Alt"
       ],
       "key": "ArrowRight"
+    }
+  ],
+  "editor:open-search": [],
+  "markdown:toggle-preview": [],
+  "markdown:add-metadata-property": [],
+  "file-explorer:new-file": [],
+  "file-explorer:new-file-in-new-pane": [],
+  "editor:delete-paragraph": [],
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "obsidian-excalidraw-plugin:insert-link": [],
+  "obsidian-excalidraw-plugin:toggle-lock": [],
+  "editor:follow-link": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ],
+  "workspace:goto-last-tab": [],
+  "workspace:next-tab": [],
+  "workspace:previous-tab": [],
+  "workspace:goto-tab-1": [],
+  "workspace:goto-tab-2": [],
+  "workspace:goto-tab-3": [],
+  "workspace:goto-tab-4": [],
+  "workspace:goto-tab-5": [],
+  "workspace:goto-tab-6": [],
+  "workspace:goto-tab-8": [],
+  "workspace:goto-tab-7": [],
+  "graph:open": [],
+  "obsidian-icon-folder:iconize:set-icon-for-file": [],
+  "editor:insert-link": [],
+  "obsidian-linter:lint-file": [],
+  "workspace:undo-close-pane": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "U"
+    }
+  ],
+  "editor:toggle-italics": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "I"
+    }
+  ],
+  "editor:toggle-comments": [],
+  "editor:toggle-checklist-status": [],
+  "editor:toggle-bold": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
+  "editor:open-search-replace": [],
+  "workspace:edit-file-title": [],
+  "editor:open-link-in-new-split": [],
+  "editor:open-link-in-new-window": [],
+  "workspace:new-tab": [],
+  "app:open-help": [],
+  "editor:open-link-in-new-leaf": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ],
+  "app:toggle-ribbon": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "daily-notes:goto-prev": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
+  "vim-toggle:toggle-vim": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "I"
+    }
+  ],
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
+  ],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "V"
+    }
+  ],
+  "editor:add-cursor-below": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ],
+  "obsidian-file-cleaner:clean-files": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "X"
+    }
+  ],
+  "obsidian-git:push2": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "."
+    }
+  ],
+  "obsidian-git:commit": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": ","
+    }
+  ],
+  "editor:focus-top": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "K"
+    }
+  ],
+  "editor:focus-bottom": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "J"
+    }
+  ],
+  "editor:focus-left": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    }
+  ],
+  "editor:focus-right": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
+  ],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "editor:toggle-inline-math": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
     }
   ]
 }
