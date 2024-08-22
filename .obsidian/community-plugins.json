@@ -10,10 +10,10 @@
   "tag-wrangler",
   "obsidian-style-settings",
   "obsidian-icon-folder",
-  "obsidian-smart-typography",
-  "url-into-selection",
   "homepage",
   "obsidian-kanban",
-  "nldates-obsidian",
-  "vim-toggle"
+  "vim-toggle",
+  "templater-obsidian",
+  "obsidian-book-search-plugin",
+  "obsidian-banners"
 ]

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiAppWindow",
-      "LiBookTemplate",
+      "LiLibraryBig",
       "LiDatabase",
-      "LiCalendarDays",
-      "LiPaperclip"
+      "LiHome",
+      "LiBrain",
+      "LiTreePine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -33,8 +33,10 @@
     "lucideIconPackType": "native",
     "debugMode": false
   },
-  "daily": "LiCalendarDays",
+  "attachments": "LiPaperclip",
   "templates": "LiBookTemplate",
   "pages": "LiAppWindow",
-  "notes": "LiDatabase"
+  "daily": "LiCalendarDays",
+  "notes": "LiDatabase",
+  "library": "LiLibraryBig"
 }

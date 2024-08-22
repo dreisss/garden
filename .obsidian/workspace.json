@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1b442461ae062e68",
+        "id": "2b1b053b1546d6b4",
         "type": "tabs",
         "children": [
           {
-            "id": "5dfcc24e510b4742",
+            "id": "35cb10e634b0be9e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "02deb1762013a09d",
+            "id": "9b2dfc471fa33822",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -61,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -74,7 +75,7 @@
       {
         "id": "32d0cc80d95afd85",
         "type": "tabs",
-        "dimension": 41.35667396061269,
+        "dimension": 34.98062015503876,
         "children": [
           {
             "id": "aa1cfa46beb0d678",
@@ -85,13 +86,12 @@
             }
           },
           {
-            "id": "c6bbf630615cde16",
+            "id": "2af48e3b60eae90c",
             "type": "leaf",
             "state": {
-              "type": "tag",
+              "type": "outline",
               "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
+                "file": "templates/book_template.md"
               }
             }
           },
@@ -101,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "templates/book_template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "templates/book_template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,43 +127,28 @@
         ]
       },
       {
-        "id": "f0748e3dd0d0cd8b",
+        "id": "b82c3f6e69990012",
         "type": "tabs",
-        "dimension": 58.64332603938731,
+        "dimension": 65.01937984496124,
         "children": [
           {
-            "id": "f84652e9e3901bd9",
+            "id": "610d7e0d24257c16",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "pinned": true
             }
           },
           {
-            "id": "1a7a6a3456cda8e4",
+            "id": "c6bbf630615cde16",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "bb15620a092b998a",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {}
-            }
-          },
-          {
-            "id": "e648e66aff9c0418",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
+              "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               }
             }
           }
@@ -169,57 +156,65 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351
+    "width": 352
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:Create new board": false,
-      "obsidian-file-cleaner:Clean files": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "homepage:Open homepage": false,
+      "obsidian-kanban:Create new board": true,
+      "daily-notes:Open today's daily note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "obsidian-excalidraw-plugin:Create new drawing": true,
+      "obsidian-file-cleaner:Clean files": true,
+      "templater-obsidian:Templater": false,
+      "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "5dfcc24e510b4742",
+  "active": "9b2dfc471fa33822",
   "lastOpenFiles": [
-    "notes/obsidian - hotkeys.md",
-    "daily/2024.08.22 (Thu).md",
-    "daily/2024.08.20 (Tue).md",
-    "daily/2024.08.21 (Wed).md",
-    "templates/timed_note_template.md",
+    "templates/book_template.md",
+    "pages/home.md",
+    "pages/library.md",
     "templates/note_template.md",
+    "library/Real and Complex Analysis.md",
+    "library/Principles of Mathematical Analysis.md",
     "templates/daily_template.md",
-    "pages/homepage.md",
+    "library/The Art of Computer Programming.md",
+    "daily/2024.08.22 (Thu).md",
+    "library/The Works of Iván Turgénieff Rudin A King Lear of the steppes Phantoms and other stories Smoke.md",
+    "notes/obsidian - hotkeys.md",
+    "The Art of Computer Programming.md",
+    "daily/2024.08.21 (Wed).md",
+    "daily/2024.08.20 (Tue).md",
+    "library/The Art of Computer Programming; Volume 1 Fundamental Algorithms.md",
     "notes/Untitled.md",
-    "math.md",
-    "2024-08-20.md",
-    "slipbox/recover excel file when computer suddenly shuts down (with .tmp file).md",
-    "slipbox",
-    "notes/difference between nixos-unstable and nixpkgs-unstable.md",
-    "notes/recover excel file when computer suddenly shuts down (with .tmp file).md",
-    "Untitled",
-    "templates/properties_template.md",
-    "slipbox/homepage.md",
-    "pages",
-    "templates/reference_template.md",
-    "slipbox/slip box.md",
-    "templates/general_template.md",
-    "slipbox/personal knowledge management.md",
-    "slipbox/obsidian plugins.md",
-    "slipbox/obsidian.md",
-    "slipbox/digital garden.md",
-    "slipbox/clarinet.md",
-    "slipbox/Zettelkasten note-taking in 10 minutes.md",
-    "templates/article_template.md",
-    "attachments/excalidraw",
-    "attachments",
-    "Excalidraw",
+    "attachments/banners/homepage.gif",
+    "attachments/banners/homepage.gif.crdownload",
+    "attachments/banners/library.avif",
+    "attachments/homepage/banner.gif",
+    "attachments/homepage/banner.gif.crdownload",
+    "attachments/banners",
+    "attachments/bookshelf.jpg",
+    "notes/[[library]].md",
+    "attachments/banners/library.avif.crdownload",
+    "attachments/bookshelf.jpg.crdownload",
+    "attachments/banners/homepage.png",
+    "attachments/banners/homepage.png.crdownload",
+    "attachments/banners",
+    "attachments/New folder",
+    "notes/asdamsda.md",
+    "notes/202408221435 askdalskdasdasdasd.md",
+    "templates/thought_template.md",
+    "library",
+    "notes/obsidian.md",
+    "notes/Untitled 1.md",
+    "notes/aksdlkasdas.md",
+    "notes.md",
+    "notes/##### 🕝 Recent.md",
     "notes",
-    "templates",
-    "daily"
+    "slipbox/recover excel file when computer suddenly shuts down (with .tmp file).md"
   ]
 }

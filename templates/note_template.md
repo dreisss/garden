@@ -1,7 +1,6 @@
 ---
 created_at: "{{date}}"
-tags: []
-categories: 
+tags: 
 aliases:
 ---
 - 

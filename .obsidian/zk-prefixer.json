@@ -1,3 +1,5 @@
 {
-  "folder": "zettels"
+  "folder": "notes",
+  "template": "templates/note_template",
+  "format": "YYYYMMDDHHmm"
 }

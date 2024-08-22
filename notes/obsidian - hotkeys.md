@@ -1,14 +1,14 @@
 ---
 created_at: 2024-08-22
-tags: []
-categories:
-  - obsidian
+tags:
+  - "#obsidian"
+  - settings
   - hotkeys
 aliases:
 ---
 My custom hotkeys/shortcuts to [[obsidian]]:
 
-[download!](https://raw.githubusercontent.com/dreisss/garden/main/.obsidian/hotkeys.json)
+- [download!](https://raw.githubusercontent.com/dreisss/garden/main/.obsidian/hotkeys.json)
 
 ```dataviewjs
 const hotkeysFile = await app.vault.readRaw(".obsidian/hotkeys.json");
@@ -26,7 +26,7 @@ for (let command in hotkeysJson) {
 		case "object":
 			let modifiers = hotkeysJson[command][0]["modifiers"].join(" + ")
 			let key = hotkeysJson[command][0]["key"]
-			hotkey = `- [6] ${modifiers} + ${key}`
+			hotkey = `${modifiers} + ${key}`
 			break
 	}
 

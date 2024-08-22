@@ -7,6 +7,16 @@
   "baseFontSizeAction": true,
   "baseFontSize": 17,
   "enabledCssSnippets": [
-    "extended-colorschemes"
+    "rounded-tables",
+    "extended-colorschemes",
+    "rounded-corners-tables",
+    "rounded-corners-table",
+    "cards",
+    "no-wrap-codeblocks",
+    "tables",
+    "book-search-cover-images",
+    "minimal-cards",
+    "banners",
+    "align-images"
   ]
 }

@@ -8,5 +8,10 @@
   "showRibbon": false,
   "focusNewTab": false,
   "foldHeading": true,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "propertiesInDocument": "visible",
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "tabSize": 4,
+  "useTab": true
 }

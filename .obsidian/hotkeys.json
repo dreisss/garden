@@ -62,7 +62,14 @@
   "editor:open-search": [],
   "markdown:toggle-preview": [],
   "markdown:add-metadata-property": [],
-  "file-explorer:new-file": [],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "="
+    }
+  ],
   "file-explorer:new-file-in-new-pane": [],
   "editor:delete-paragraph": [],
   "obsidian-excalidraw-plugin:insert-link-to-element": [],
@@ -77,16 +84,87 @@
     }
   ],
   "workspace:goto-last-tab": [],
-  "workspace:next-tab": [],
-  "workspace:previous-tab": [],
-  "workspace:goto-tab-1": [],
-  "workspace:goto-tab-2": [],
-  "workspace:goto-tab-3": [],
-  "workspace:goto-tab-4": [],
-  "workspace:goto-tab-5": [],
-  "workspace:goto-tab-6": [],
-  "workspace:goto-tab-8": [],
-  "workspace:goto-tab-7": [],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "workspace:goto-tab-1": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "workspace:goto-tab-2": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
+    }
+  ],
+  "workspace:goto-tab-3": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "4"
+    }
+  ],
+  "workspace:goto-tab-4": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "5"
+    }
+  ],
+  "workspace:goto-tab-5": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "6"
+    }
+  ],
+  "workspace:goto-tab-6": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "7"
+    }
+  ],
+  "workspace:goto-tab-8": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "9"
+    }
+  ],
+  "workspace:goto-tab-7": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "8"
+    }
+  ],
   "graph:open": [],
   "obsidian-icon-folder:iconize:set-icon-for-file": [],
   "editor:insert-link": [],
@@ -94,9 +172,10 @@
   "workspace:undo-close-pane": [
     {
       "modifiers": [
-        "Alt"
+        "Mod",
+        "Shift"
       ],
-      "key": "U"
+      "key": "T"
     }
   ],
   "editor:toggle-italics": [
@@ -139,23 +218,6 @@
         "Shift"
       ],
       "key": "B"
-    }
-  ],
-  "daily-notes": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "D"
-    }
-  ],
-  "daily-notes:goto-prev": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "D"
     }
   ],
   "insert-template": [
@@ -277,5 +339,50 @@
       ],
       "key": "M"
     }
-  ]
+  ],
+  "homepage:open-homepage": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": ","
+    }
+  ],
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "-"
+    }
+  ],
+  "daily-notes:goto-prev": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": ","
+    }
+  ],
+  "daily-notes:goto-next": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "."
+    }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "."
+    }
+  ],
+  "templater-obsidian:insert-templater": []
 }
