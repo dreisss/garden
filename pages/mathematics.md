@@ -2,12 +2,7 @@
 created_at: 2024.08.23 (Fri)
 tags:
   - "#page"
-  - subject/mathmatics
+  - subject/mathematics
 aliases:
   - math
 ---
-- 
-
-## References
-
-1. 

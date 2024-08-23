@@ -21,4 +21,11 @@ aliases:
 cssclasses:
   - cover-align-center
 ---
+
 ![cover|200](https://m.media-amazon.com/images/I/81Aq-q9aUeL._SY466_.jpg)
+
+> [!example] subjects
+> ```dataviewjs
+> dv.list(dv.current().file.tags.filter(tag => tag.startsWith("#subject") && tag != "#subject").sort())
+> ```
+ 

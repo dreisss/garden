@@ -2,9 +2,9 @@
 created_at: 2024-08-23
 tags:
   - literature/book
-  - subject/mathmatics/set_theory
-  - subject/mathmatics/functions
-title: "Fundamentos de matemática elementar - Volume 1: Conjuntos e funções"
+  - subject/mathematics/set-theory
+  - subject/mathematics/functions
+title: "Fundamentos de Matemática Elementar - Volume 1: Conjuntos e Funções"
 authors:
   - "[[Gelson Iezzi]]"
   - "[[Carlos Murakami]]"
@@ -23,4 +23,11 @@ aliases:
 cssclasses:
   - cover-align-center
 ---
+
 ![cover|200](https://m.media-amazon.com/images/I/71KGGRF6WTL._SY466_.jpg)
+
+> [!example] subjects
+> ```dataviewjs
+> dv.list(dv.current().file.tags.filter(tag => tag.startsWith("#subject") && tag != "#subject").sort())
+> ```
+ 

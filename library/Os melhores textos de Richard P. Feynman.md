@@ -23,3 +23,9 @@ cssclasses:
 ---
 
 ![cover|200](https://m.media-amazon.com/images/I/61d89NKdU4L._SY466_.jpg)
+
+> [!example] subjects
+> ```dataviewjs
+> dv.list(dv.current().file.tags.filter(tag => tag.startsWith("#subject") && tag != "#subject").sort())
+> ```
+ 

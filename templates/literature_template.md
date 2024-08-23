@@ -1,6 +1,6 @@
 <%"---"%>
 created_at: {{date}}
-tags: <%=`\n  - literature/book${book.categories == undefined ? "" : book.categories.map(category=>`\n  - subject/${category}`).join('')}`%>
+tags: <%=`\n  - literature${book.categories == undefined ? "" : book.categories.map(category=>`\n  - subject/${category}`).join('')}`%>
 title: <%=`"${book.title}${book.subtitle == undefined ? "" : `: ${book.subtitle}`}"`%>
 authors: <%=book.authors.map(author=>`\n  - "[[${author}]]"`).join('')%>
 publisher: <%=book.publisher == undefined ? "" : book.publisher%>
@@ -15,5 +15,10 @@ rating: ok
 aliases:
 cssclasses: cover-align-center
 <%"---"%>
+
 ![cover|200](<%=book.coverUrl%>)
 
+> [!example] subjects
+> ```dataviewjs
+> dv.list(dv.current().file.tags.filter(tag => tag.startsWith("#subject") && tag != "#subject").sort())
+> ```

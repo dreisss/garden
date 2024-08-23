@@ -4,7 +4,7 @@ tags:
   - literature/book
   - subject/physics/optics
   - subject/physics/relativity
-  - subject/physics/quantum_mechanics
+  - subject/physics/quantum-mechanics
 title: "Curso de física básica: Ótica, relatividade, física quântica (vol. 4)"
 authors:
   - "[[Herch Moysés Nussenzveig]]"
@@ -24,4 +24,11 @@ aliases:
 cssclasses:
   - cover-align-center
 ---
+
 ![cover|200](https://storage.blucher.com.br/book/9788521208037_3d.png)
+
+> [!example] subjects
+> ```dataviewjs
+> dv.list(dv.current().file.tags.filter(tag => tag.startsWith("#subject") && tag != "#subject").sort())
+> ```
+ 

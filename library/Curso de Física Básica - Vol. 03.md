@@ -22,4 +22,11 @@ aliases:
 cssclasses:
   - cover-align-center
 ---
+
 ![cover|200](https://storage.blucher.com.br/book/9788521208013_3d.png)
+
+> [!example] subjects
+> ```dataviewjs
+> dv.list(dv.current().file.tags.filter(tag => tag.startsWith("#subject") && tag != "#subject").sort())
+> ```
+ 

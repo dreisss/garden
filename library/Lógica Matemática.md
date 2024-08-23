@@ -2,7 +2,7 @@
 created_at: 2024-08-23
 tags:
   - literature/book
-  - "#subject/mathmatics/logic"
+  - subject/mathematics/logic
 title: Lógica Matemática
 authors:
   - "[[Rogério Augusto dos Santos Fajardo]]"
@@ -20,4 +20,11 @@ aliases:
 cssclasses:
   - cover-align-center
 ---
+
 ![cover|200](https://m.media-amazon.com/images/I/41guLdPh6AL._SY466_.jpg)
+
+> [!example] subjects
+> ```dataviewjs
+> dv.list(dv.current().file.tags.filter(tag => tag.startsWith("#subject") && tag != "#subject").sort())
+> ```
+ 

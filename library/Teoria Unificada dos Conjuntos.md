@@ -2,7 +2,7 @@
 created_at: 2024-08-23
 tags:
   - literature/book
-  - "#subject/mathmatics/set_theory/fuzzy"
+  - subject/mathematics/set-theory/fuzzy
 title: Teoria Unificada dos Conjuntos
 authors:
   - "[[Nelson Hein]]"
@@ -22,4 +22,11 @@ aliases:
 cssclasses:
   - cover-align-center
 ---
+
 ![cover|200](https://imgs.ponto.com.br/144077/1xg.jpg)
+
+> [!example] subjects
+> ```dataviewjs
+> dv.list(dv.current().file.tags.filter(tag => tag.startsWith("#subject") && tag != "#subject").sort())
+> ```
+ 

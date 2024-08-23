@@ -27,7 +27,7 @@ cssclasses:
 
 ## 
 
-- [ ] # [[mathematics]]
+- [ ] # [[mathematics|math]]
 
 
 

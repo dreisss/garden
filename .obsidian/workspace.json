@@ -4,24 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "2039240752dab4d0",
+        "id": "9459d7f35c6088be",
         "type": "tabs",
         "children": [
           {
-            "id": "bdf97cdd9fb40a48",
+            "id": "9d3850f34da57d4f",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "pages/home.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "library/Fundamentos de Matemática Elementar.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -44,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#plugins",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 403,
+    "collapsed": true
   },
   "right": {
     "id": "df19b8e4e908e17a",
@@ -85,7 +80,7 @@
       {
         "id": "32d0cc80d95afd85",
         "type": "tabs",
-        "dimension": 37.84355179704017,
+        "dimension": 34.98062015503876,
         "children": [
           {
             "id": "aa1cfa46beb0d678",
@@ -101,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/home.md"
+                "file": "library/Fundamentos de Matemática Elementar.md"
               }
             }
           },
@@ -111,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/home.md",
+                "file": "library/Fundamentos de Matemática Elementar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/home.md",
+                "file": "library/Fundamentos de Matemática Elementar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,16 +134,49 @@
       {
         "id": "b82c3f6e69990012",
         "type": "tabs",
-        "dimension": 62.15644820295984,
+        "dimension": 65.01937984496124,
         "children": [
           {
             "id": "610d7e0d24257c16",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {},
-              "pinned": true
+              "state": {}
+            }
+          },
+          {
+            "id": "02c928e7bd84b856",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "library/Fundamentos de Matemática Elementar.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5087618855792589,
+                  "close": true
+                }
+              }
             }
           },
           {
@@ -162,11 +190,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 350
+    "width": 352,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,36 +213,35 @@
       "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "bdf97cdd9fb40a48",
+  "active": "9d3850f34da57d4f",
   "lastOpenFiles": [
-    "library/Teoria Unificada dos Conjuntos.md",
+    "library/Fundamentos de Matemática Elementar.md",
+    "library/Curso de Física Básica.md",
     "pages/library.md",
-    "library/Lógica Matemática.md",
-    "pages/home.md",
-    "pages/mathematics.md",
-    "pages/math.md",
-    "daily/2024.08.23 (Fri).md",
-    "library/Só pode ser brincadeira, Sr. Feynman!.md",
-    "library/Princípios Matemáticos de Filosofia Natural - Livro II e III.md",
-    "library/Princípios Matemáticos de Filosofia Natural - Livro I.md",
-    "library/Os melhores textos de Richard P. Feynman.md",
-    "library/Os Elementos.md",
-    "library/Mecânica Newtoniana, Lagrangiana e Hamiltoniana.md",
     "library/Fundamentos de Matemática Elementar - Vol. 01.md",
     "library/Curso de Física Básica - Vol. 04.md",
     "library/Curso de Física Básica - Vol. 03.md",
     "library/Curso de Física Básica - Vol. 02.md",
     "library/Curso de Física Básica - Vol. 01.md",
-    "notes/FABIO DADAM.md",
-    "templates/book_template.md",
-    "library/Os melhores textos de Richard P Feynman.md",
-    "library/The Feynman Lectures on Physics Vol I.md",
-    "notes/Richard P. Feynman.md",
-    "templates/note_template.md",
-    "templates/daily_template.md",
-    "library/RUDIN - Turguêniev.md",
-    "templates/templater",
-    "library",
+    "library/Só pode ser brincadeira, Sr. Feynman!.md",
+    "library/Principles of Mathematical Analysis.md",
+    "library/Princípios Matemáticos de Filosofia Natural - Livro II e III.md",
+    "library/Princípios Matemáticos de Filosofia Natural - Livro I.md",
+    "library/Os melhores textos de Richard P. Feynman.md",
+    "library/Os Elementos.md",
+    "library/Mecânica Newtoniana, Lagrangiana e Hamiltoniana.md",
+    "library/Lógica Matemática.md",
+    "templates/literature_template.md",
+    "pages/home.md",
+    "pages/mathematics.md",
+    "library/The Art of Computer Programming - Vol. I.md",
+    "library/The Art of Computer Programming.md",
+    "library/The Feynman Lectures on Physics - Vol. III.md",
+    "library/The Feynman Lectures on Physics - Vol. II.md",
+    "library/The Feynman Lectures on Physics - Vol. I.md",
+    "library/Teoria Unificada dos Conjuntos.md",
+    "daily/2024.08.23 (Fri).md",
+    "attachments/excalidraw",
     "attachments/banners/homepage.gif",
     "attachments/banners/homepage.gif.crdownload",
     "attachments/banners/library.avif",
@@ -225,6 +254,7 @@
     "attachments/banners/homepage.png",
     "attachments/banners/homepage.png.crdownload",
     "attachments/banners",
-    "attachments/New folder"
+    "attachments/New folder",
+    "library"
   ]
 }

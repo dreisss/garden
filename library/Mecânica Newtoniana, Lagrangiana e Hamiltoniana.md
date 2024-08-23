@@ -6,7 +6,7 @@ tags:
   - subject/physics/mechanics/newtonian
   - subject/physics/mechanics/lagrangian
   - subject/physics/mechanics/halmitonian
-title: Mecânica newtoniana, lagrangiana e hamiltoniana
+title: Mecânica Newtoniana, lagrangiana e Hamiltoniana
 authors:
   - "[[João Barcelos Neto]]"
 publisher: "[[Editora Livraria da Fisica]]"
@@ -24,4 +24,11 @@ aliases:
 cssclasses:
   - cover-align-center
 ---
+
 ![cover|200](https://m.media-amazon.com/images/I/81ShMucx27L._SY466_.jpg)
+
+> [!example] subjects
+> ```dataviewjs
+> dv.list(dv.current().file.tags.filter(tag => tag.startsWith("#subject") && tag != "#subject").sort())
+> ```
+ 

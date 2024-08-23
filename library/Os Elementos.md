@@ -3,7 +3,7 @@ created_at: 2024-08-23
 tags:
   - literature/book
   - subject/mathematics
-title: Os elementos
+title: Os Elementos
 authors:
   - "[[Euclides]]"
 publisher: "[[UNESP]]"
@@ -21,4 +21,11 @@ aliases:
 cssclasses:
   - cover-align-center
 ---
+
 ![cover|200](https://editoraunesp.com.br/catalogo/9788571399358,os-elementos/capa)
+
+> [!example] subjects
+> ```dataviewjs
+> dv.list(dv.current().file.tags.filter(tag => tag.startsWith("#subject") && tag != "#subject").sort())
+> ```
+ 

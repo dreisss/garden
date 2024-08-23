@@ -3,7 +3,7 @@ created_at: 2024-08-23
 tags:
   - literature/book
   - subject/physics/mechanics
-title: "Curso de física básica: Mecânica (vol.1)"
+title: "Curso de Física Básica: Mecânica (vol.1)"
 authors:
   - "[[Herch Moysés Nussenzveig]]"
 publisher: "[[Editora Blucher]]"
@@ -22,6 +22,11 @@ aliases:
 cssclasses:
   - cover-align-center
 ---
+
 ![cover|200](https://storage.blucher.com.br/book/9788521207450_3d.png)
 
-	
+> [!example] subjects
+> ```dataviewjs
+> dv.list(dv.current().file.tags.filter(tag => tag.startsWith("#subject") && tag != "#subject").sort())
+> ```
+ 
