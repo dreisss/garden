@@ -1,19 +1,19 @@
 <%"---"%>
 created_at: {{date}}
-tags: book
-title: "{{title}}"
-subtitle: "{{subtitle}}"
+tags: <%=`\n  - literature/book${book.categories == undefined ? "" : book.categories.map(category=>`\n  - subject/${category}`).join('')}`%>
+title: <%=`"${book.title}${book.subtitle == undefined ? "" : `: ${book.subtitle}`}"`%>
 authors: <%=book.authors.map(author=>`\n  - "[[${author}]]"`).join('')%>
-subjects: <%=book.categories.map(category=>`\n  - ${category}`).join('')%>
-publisher: {{publisher}}
-published_at: {{publishDate}}
-pages: {{totalPage}}
+publisher: <%=book.publisher == undefined ? "" : book.publisher%>
 isbn:<%=`\n  - "${book.isbn10}"\n  - "${book.isbn13}"`%>
 cover: {{coverUrl}}
 source:
-aliases:
+physical: false
+read_start:
+read_finish:
 status: unread
+rating: ok
+aliases:
+cssclasses: cover-align-center
 <%"---"%>
 ![cover|200](<%=book.coverUrl%>)
 
-## Outline

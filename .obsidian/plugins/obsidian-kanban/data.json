@@ -1,3 +1,6 @@
 {
-  "new-line-trigger": "enter"
+  "new-line-trigger": "enter",
+  "show-board-settings": false,
+  "show-set-view": true,
+  "show-search": false
 }

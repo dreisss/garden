@@ -4,15 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "2b1b053b1546d6b4",
+        "id": "2039240752dab4d0",
         "type": "tabs",
         "children": [
           {
-            "id": "35cb10e634b0be9e",
+            "id": "bdf97cdd9fb40a48",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "kanban",
+              "state": {
+                "file": "pages/home.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              }
             }
           }
         ]
@@ -75,7 +85,7 @@
       {
         "id": "32d0cc80d95afd85",
         "type": "tabs",
-        "dimension": 34.98062015503876,
+        "dimension": 37.84355179704017,
         "children": [
           {
             "id": "aa1cfa46beb0d678",
@@ -91,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/book_template.md"
+                "file": "pages/home.md"
               }
             }
           },
@@ -101,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templates/book_template.md",
+                "file": "pages/home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "templates/book_template.md",
+                "file": "pages/home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +139,7 @@
       {
         "id": "b82c3f6e69990012",
         "type": "tabs",
-        "dimension": 65.01937984496124,
+        "dimension": 62.15644820295984,
         "children": [
           {
             "id": "610d7e0d24257c16",
@@ -156,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 352
+    "width": 350
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,24 +183,36 @@
       "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "9b2dfc471fa33822",
+  "active": "bdf97cdd9fb40a48",
   "lastOpenFiles": [
-    "templates/book_template.md",
-    "pages/home.md",
+    "library/Teoria Unificada dos Conjuntos.md",
     "pages/library.md",
+    "library/Lógica Matemática.md",
+    "pages/home.md",
+    "pages/mathematics.md",
+    "pages/math.md",
+    "daily/2024.08.23 (Fri).md",
+    "library/Só pode ser brincadeira, Sr. Feynman!.md",
+    "library/Princípios Matemáticos de Filosofia Natural - Livro II e III.md",
+    "library/Princípios Matemáticos de Filosofia Natural - Livro I.md",
+    "library/Os melhores textos de Richard P. Feynman.md",
+    "library/Os Elementos.md",
+    "library/Mecânica Newtoniana, Lagrangiana e Hamiltoniana.md",
+    "library/Fundamentos de Matemática Elementar - Vol. 01.md",
+    "library/Curso de Física Básica - Vol. 04.md",
+    "library/Curso de Física Básica - Vol. 03.md",
+    "library/Curso de Física Básica - Vol. 02.md",
+    "library/Curso de Física Básica - Vol. 01.md",
+    "notes/FABIO DADAM.md",
+    "templates/book_template.md",
+    "library/Os melhores textos de Richard P Feynman.md",
+    "library/The Feynman Lectures on Physics Vol I.md",
+    "notes/Richard P. Feynman.md",
     "templates/note_template.md",
-    "library/Real and Complex Analysis.md",
-    "library/Principles of Mathematical Analysis.md",
     "templates/daily_template.md",
-    "library/The Art of Computer Programming.md",
-    "daily/2024.08.22 (Thu).md",
-    "library/The Works of Iván Turgénieff Rudin A King Lear of the steppes Phantoms and other stories Smoke.md",
-    "notes/obsidian - hotkeys.md",
-    "The Art of Computer Programming.md",
-    "daily/2024.08.21 (Wed).md",
-    "daily/2024.08.20 (Tue).md",
-    "library/The Art of Computer Programming; Volume 1 Fundamental Algorithms.md",
-    "notes/Untitled.md",
+    "library/RUDIN - Turguêniev.md",
+    "templates/templater",
+    "library",
     "attachments/banners/homepage.gif",
     "attachments/banners/homepage.gif.crdownload",
     "attachments/banners/library.avif",
@@ -198,23 +220,11 @@
     "attachments/homepage/banner.gif.crdownload",
     "attachments/banners",
     "attachments/bookshelf.jpg",
-    "notes/[[library]].md",
     "attachments/banners/library.avif.crdownload",
     "attachments/bookshelf.jpg.crdownload",
     "attachments/banners/homepage.png",
     "attachments/banners/homepage.png.crdownload",
     "attachments/banners",
-    "attachments/New folder",
-    "notes/asdamsda.md",
-    "notes/202408221435 askdalskdasdasdasd.md",
-    "templates/thought_template.md",
-    "library",
-    "notes/obsidian.md",
-    "notes/Untitled 1.md",
-    "notes/aksdlkasdas.md",
-    "notes.md",
-    "notes/##### 🕝 Recent.md",
-    "notes",
-    "slipbox/recover excel file when computer suddenly shuts down (with .tmp file).md"
+    "attachments/New folder"
   ]
 }

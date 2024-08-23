@@ -1,0 +1,50 @@
+.cover-align-center div.cm-content.cm-lineWrapping img[alt="cover"] {
+  margin: auto !important;
+}
+
+.checkbox-adjusts {
+  --list-indent: 0 !important;
+
+  .task-list-item-checkbox {
+    margin-inline-start: 0.25rem !important;
+    margin-inline-end: 0.5rem !important;
+  }
+}
+
+.home-adjusts {
+  .kanban-plugin__lane-header-wrapper,
+  .kanban-plugin__lane-placeholder.kanban-plugin__placeholder {
+    display: none;
+  }
+
+  .kanban-plugin__lane-wrapper {
+    height: 100%;
+    width: calc((100% - 1.5rem) / 3) !important;
+
+    &:nth-last-child(2) {
+      margin-right: 0 !important;
+    }
+  }
+
+  .kanban-plugin__lane {
+    padding-top: 0.5rem;
+  }
+
+  .kanban-plugin__board > div {
+    width: 100%;
+  }
+}
+
+.library-adjusts {
+  .cm-sizer {
+    --file-line-width: 100%;
+    margin: 0 !important;
+  }
+
+  .inline-title,
+  .metadata-container {
+    width: 40rem !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}

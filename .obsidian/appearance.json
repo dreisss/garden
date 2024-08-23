@@ -1,11 +1,11 @@
 {
-  "interfaceFontFamily": "Inter",
+  "interfaceFontFamily": "",
   "showViewHeader": true,
-  "cssTheme": "AnuPpuccin",
-  "textFontFamily": "Work Sans",
+  "cssTheme": "Primary",
+  "textFontFamily": "",
   "accentColor": "",
   "baseFontSizeAction": true,
-  "baseFontSize": 17,
+  "baseFontSize": 19,
   "enabledCssSnippets": [
     "rounded-tables",
     "extended-colorschemes",
@@ -17,6 +17,9 @@
     "book-search-cover-images",
     "minimal-cards",
     "banners",
-    "align-images"
-  ]
+    "align-images",
+    "homepage-kanban-lists",
+    "css-classes"
+  ],
+  "theme": "obsidian"
 }

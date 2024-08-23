@@ -1,6 +1,5 @@
 {
   "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-macchiato",
-  "anuppuccin-theme-settings@@anuppuccin-theme-accents": "ctp-accent-blue",
   "anuppuccin-theme-settings@@anp-file-icons": false,
   "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-simple-rainbow-color-toggle",
   "anuppuccin-theme-settings@@anp-simple-rainbow-title-toggle": true,
@@ -41,5 +40,15 @@
   "css-banner-settings@@banner-title-left": 50,
   "css-banner-settings@@banner-icon-size": 40,
   "css-banner-settings@@banner-icon-top": 100,
-  "css-banner-settings@@banner-icon-left": 5
+  "css-banner-settings@@banner-icon-left": 5,
+  "anuppuccin-theme-settings@@anuppuccin-accent-toggle": false,
+  "primary-theme@@zero-tab-anim": false,
+  "primary-theme@@interface_editor-bg": "editor-bgpattern-dotgrid",
+  "primary-theme@@interface_status-bar-style": "sb-default",
+  "primary-theme@@colorful-folders_text": true,
+  "primary-theme@@colorful-folders_collapse-indicator": true,
+  "primary-theme@@colorful-folders_background": false,
+  "primary-theme@@colorful-folders_indentation-guide": true,
+  "primary-theme@@colorful-folders_inherit-color": true,
+  "primary-theme@@alt-folder-icons": false
 }

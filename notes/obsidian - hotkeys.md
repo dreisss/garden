@@ -1,10 +1,8 @@
 ---
 created_at: 2024-08-22
 tags:
-  - "#obsidian"
-  - settings
-  - hotkeys
-aliases:
+  - settings/obsidian
+  - hotkeys/obsidian
 ---
 My custom hotkeys/shortcuts to [[obsidian]]:
 

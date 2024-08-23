@@ -2,7 +2,7 @@
   "editor:save-file": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "W"
     }
@@ -78,7 +78,7 @@
   "editor:follow-link": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "G"
     }
@@ -200,13 +200,22 @@
   "workspace:edit-file-title": [],
   "editor:open-link-in-new-split": [],
   "editor:open-link-in-new-window": [],
-  "workspace:new-tab": [],
+  "workspace:new-tab": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "="
+    }
+  ],
   "app:open-help": [],
   "editor:open-link-in-new-leaf": [],
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Shift"
       ],
       "key": "B"
     }
@@ -215,6 +224,7 @@
     {
       "modifiers": [
         "Alt",
+        "Mod",
         "Shift"
       ],
       "key": "B"
@@ -247,7 +257,8 @@
   "workspace:split-horizontal": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Shift"
       ],
       "key": "S"
     }
@@ -255,7 +266,8 @@
   "workspace:split-vertical": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Shift"
       ],
       "key": "V"
     }
@@ -263,7 +275,8 @@
   "editor:add-cursor-below": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Shift"
       ],
       "key": "C"
     }
@@ -271,7 +284,8 @@
   "obsidian-file-cleaner:clean-files": [
     {
       "modifiers": [
-        "Alt"
+        "Mod",
+        "Shift"
       ],
       "key": "X"
     }
@@ -295,7 +309,7 @@
   "editor:focus-top": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "K"
     }
@@ -303,7 +317,7 @@
   "editor:focus-bottom": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "J"
     }
@@ -311,7 +325,7 @@
   "editor:focus-left": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "H"
     }
@@ -319,7 +333,7 @@
   "editor:focus-right": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
       "key": "L"
     }
@@ -327,7 +341,8 @@
   "editor:toggle-highlight": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "H"
     }
@@ -384,5 +399,164 @@
       "key": "."
     }
   ],
-  "templater-obsidian:insert-templater": []
+  "templater-obsidian:insert-templater": [],
+  "obsidian-editor-shortcuts:addCursorsToSelectionEnds": [],
+  "obsidian-editor-shortcuts:copyLineDown": [],
+  "obsidian-editor-shortcuts:copyLineUp": [],
+  "obsidian-editor-shortcuts:deleteLine": [],
+  "obsidian-editor-shortcuts:duplicateLine": [],
+  "obsidian-editor-shortcuts:insertLineAbove": [],
+  "obsidian-editor-shortcuts:insertLineBelow": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
+  ],
+  "obsidian-editor-shortcuts:joinLines": [],
+  "obsidian-editor-shortcuts:undo": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "U"
+    }
+  ],
+  "obsidian-editor-shortcuts:selectAllOccurrences": [],
+  "obsidian-editor-shortcuts:selectLine": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "X"
+    }
+  ],
+  "obsidian-editor-shortcuts:selectWordOrNextOccurrence": [],
+  "obsidian-editor-shortcuts:goToPrevChar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    }
+  ],
+  "obsidian-editor-shortcuts:moveCursorDown": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "J"
+    }
+  ],
+  "obsidian-editor-shortcuts:goToNextChar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
+  ],
+  "obsidian-editor-shortcuts:moveCursorUp": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "K"
+    }
+  ],
+  "obsidian-editor-shortcuts:insertCursorBelow": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ],
+  "obsidian-editor-shortcuts:redo": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "U"
+    }
+  ],
+  "obsidian-editor-shortcuts:goToLineStart": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "obsidian-editor-shortcuts:goToNextWord": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "W"
+    }
+  ],
+  "obsidian-editor-shortcuts:goToPreviousWord": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ],
+  "obsidian-editor-shortcuts:goToLineEnd": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "L"
+    }
+  ],
+  "obsidian-editor-shortcuts:goToFirstLine": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "J"
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "K"
+    }
+  ],
+  "obsidian-editor-shortcuts:expandSelectionToQuotesOrBrackets": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "M"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ]
 }

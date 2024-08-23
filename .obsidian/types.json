@@ -31,6 +31,10 @@
     "status": "text",
     "authors": "multitext",
     "isbn": "multitext",
-    "published_at": "date"
+    "published_at": "date",
+    "physical": "checkbox",
+    "favorite": "checkbox",
+    "recommended": "text",
+    "rating": "text"
   }
 }

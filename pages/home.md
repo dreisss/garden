@@ -7,7 +7,7 @@ aliases:
   - homepage
 kanban-plugin: board
 cssclasses:
-  - banner
+  - home-adjusts
 
 ---
 
@@ -27,12 +27,13 @@ cssclasses:
 
 ## 
 
+- [ ] # [[mathematics]]
 
 
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false],"new-line-trigger":"shift-enter","hide-card-count":true,"lane-width":494,"tag-colors":[],"show-add-list":false,"show-set-view":false}
+{"kanban-plugin":"board","list-collapse":[false,false,false],"new-line-trigger":"shift-enter","hide-card-count":true,"tag-colors":[],"show-add-list":false,"show-set-view":false,"show-view-as-markdown":false,"lane-width":350}
 ```
 %%
