@@ -24,6 +24,8 @@ cssclasses:
 
 ![cover|200](https://upload.wikimedia.org/wikipedia/en/thumb/d/da/Principles_of_Mathematical_Analysis.jpg/220px-Principles_of_Mathematical_Analysis.jpg)
 
+#### `= this.title`
+
 > [!example] subjects
 > ```dataviewjs
 > dv.list(dv.current().file.tags.filter(tag => tag.startsWith("#subject") && tag != "#subject").sort())

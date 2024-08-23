@@ -19,7 +19,7 @@ My personal library with books, articles, blog posts, etc.
 const literature = dv.pages('#literature').where(() => true)
 
 dv.table([
-	"cover", "title", "physically", "status", "rating", "tags"
+	"cover", "title", "category", "physically", "status", "rating", "tags"
 	], literature.map(l => {
 	let status
 
@@ -40,10 +40,13 @@ dv.table([
 	const tags = l
 		.tags.filter(t => t.startsWith("subject"))
 		.map(tag => `- #${tag}`)
+	
+	const category = l.tags.filter(t => t.startsWith("literature"))
 
 	return [
 		`![](${l.cover})`,
 		`###### ${l.file.link}`,
+		`- #${category}`,
 		`- [${l.physical ? "p" : "c"}] physically`,
 		`- [${status}] ${l.status}`,
 		`- [${rating}] ${l.rating}`,

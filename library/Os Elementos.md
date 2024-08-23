@@ -24,6 +24,8 @@ cssclasses:
 
 ![cover|200](https://editoraunesp.com.br/catalogo/9788571399358,os-elementos/capa)
 
+#### `= this.title`
+
 > [!example] subjects
 > ```dataviewjs
 > dv.list(dv.current().file.tags.filter(tag => tag.startsWith("#subject") && tag != "#subject").sort())

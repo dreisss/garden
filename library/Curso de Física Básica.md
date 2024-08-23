@@ -23,14 +23,26 @@ cssclasses:
 
 ![cover|200](https://zonadaeletrica.com.br/wp-content/uploads/2019/09/fisica-basica-vol-moyses-nussenzveig-4ed-213x300.jpg)
 
+#### `= this.title`
+
 > [!example] subjects
 > ```dataviewjs
 > dv.list(dv.current().file.tags.filter(tag => tag.startsWith("#subject") && tag != "#subject").sort())
 > ```
 
-É uma coleção de livros de física divididos e quatro volumes:
+É uma coleção de livros de física divididos em quatro volumes:
 
-- [[Curso de Física Básica - Vol. 01|*]]`= [[Curso de Física Básica - Vol. 01]].title`
-- [[Curso de Física Básica - Vol. 02|*]]`= [[Curso de Física Básica - Vol. 02]].title`
-- [[Curso de Física Básica - Vol. 03|*]]`= [[Curso de Física Básica - Vol. 03]].title`
-- [[Curso de Física Básica - Vol. 04|*]]`= [[Curso de Física Básica - Vol. 04]].title`
+```dataviewjs
+dv.list([1, 2, 3, 4].map(n => {
+	const name = `Curso de Física Básica - Vol. 0${n}`
+	
+	const title = dv.pages('').where(p => p.file.name == name).file.frontmatter.title[0]
+	
+	return `[[${name}|${title}]]`
+}))
+```
+
+
+
+
+

@@ -28,6 +28,8 @@ cssclasses:
 
 ![cover|200](https://storage.blucher.com.br/book/9788521207474_3d.png)
 
+#### `= this.title`
+
 > [!example] subjects
 > ```dataviewjs
 > dv.list(dv.current().file.tags.filter(tag => tag.startsWith("#subject") && tag != "#subject").sort())
