@@ -5,7 +5,7 @@
   "textFontFamily": "",
   "accentColor": "",
   "baseFontSizeAction": true,
-  "baseFontSize": 18,
+  "baseFontSize": 16,
   "enabledCssSnippets": [
     "rounded-tables",
     "extended-colorschemes",

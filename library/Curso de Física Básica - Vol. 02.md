@@ -22,6 +22,7 @@ status: not finished
 rating: favorite
 aliases:
   - Fisica Básica - v. 02
+  - "Curso de Física Básica: Fluidos, Oscilações e Ondas, Calor (vol. 2)"
 cssclasses:
   - cover-align-center
 ---

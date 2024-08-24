@@ -20,6 +20,7 @@ status: read
 rating: favorite
 aliases:
   - FME - v. 01
+  - "Fundamentos de Matemática Elementar - Volume 1: Conjuntos e Funções"
 cssclasses:
   - cover-align-center
 ---

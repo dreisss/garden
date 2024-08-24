@@ -5,7 +5,7 @@ tags:
   - subject/physics/optics
   - subject/physics/relativity
   - subject/physics/quantum-mechanics
-title: "Curso de física básica: Ótica, relatividade, física quântica (vol. 4)"
+title: "Curso de Física básica: Ótica, Relatividade, Física Quântica (vol. 4)"
 authors:
   - "[[Herch Moysés Nussenzveig]]"
 publisher: "[[Editora Blucher]]"
@@ -21,6 +21,7 @@ status: unread
 rating: favorite
 aliases:
   - Fisica Básica - v. 04
+  - "Curso de Física básica: Ótica, Relatividade, Física Quântica (vol. 4)"
 cssclasses:
   - cover-align-center
 ---

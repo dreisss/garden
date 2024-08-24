@@ -3,7 +3,7 @@ created_at: 2024-08-23
 tags:
   - literature/book
   - subject/physics/electromagnetism
-title: "Curso de física básica: Eletromagnetismo (vol. 3)"
+title: "Curso de Física Básica: Eletromagnetismo (vol. 3)"
 authors:
   - "[[Herch Moysés Nussenzveig]]"
 publisher: "[[Editora Blucher]]"
@@ -19,6 +19,7 @@ status: unread
 rating: favorite
 aliases:
   - Fisica Básica - v. 03
+  - "Curso de Física Básica: Eletromagnetismo (vol. 3)"
 cssclasses:
   - cover-align-center
 ---

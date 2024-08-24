@@ -32,17 +32,8 @@ cssclasses:
 
 É uma coleção de livros de física divididos em quatro volumes:
 
-```dataviewjs
-dv.list([1, 2, 3, 4].map(n => {
-	const name = `Curso de Física Básica - Vol. 0${n}`
-	
-	const title = dv.pages('').where(p => p.file.name == name).file.frontmatter.title[0]
-	
-	return `[[${name}|${title}]]`
-}))
-```
-
-
-
-
+- [[Curso de Física Básica - Vol. 01|Curso de Física Básica: Mecânica (vol.1)]]
+- [[Curso de Física Básica - Vol. 02|Curso de Física Básica: Fluidos, Oscilações e Ondas, Calor (vol. 2)]]
+- [[Curso de Física Básica - Vol. 03|Curso de Física Básica: Eletromagnetismo (vol. 3)]]
+- [[Curso de Física Básica - Vol. 04|Curso de Física básica: Ótica, Relatividade, Física Quântica (vol. 4)]]
 

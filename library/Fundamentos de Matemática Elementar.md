@@ -34,13 +34,4 @@ cssclasses:
 
  É uma coleção de livros de física divididos em onze volumes:
 
-```dataviewjs
-dv.list([1].map(n => {
-	const name = `Fundamentos de Matemática Elementar - Vol. 0${n}`
-	
-	const title = dv.pages('').where(p => p.file.name == name).file.frontmatter.title[0]
-	
-	return `[[${name}|${title}]]`
-}))
-```
-
+- [[Fundamentos de Matemática Elementar - Vol. 01|Fundamentos de Matemática Elementar - Volume 1: Conjuntos e Funções]]

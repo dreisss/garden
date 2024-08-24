@@ -22,6 +22,7 @@ status: reference reading
 rating: favorite
 aliases:
   - Feynman Lectures - v. 02
+  - "The Feynman Lectures on Physics, Vol. II: The New Millennium Edition: Mainly Electromagnetism and Matter"
 cssclasses:
   - cover-align-center
 ---

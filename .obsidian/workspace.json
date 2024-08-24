@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b0e57289284301ed",
+        "id": "021f85d68c25e415",
         "type": "tabs",
         "children": [
           {
-            "id": "075cd70aaaac99e8",
+            "id": "3501be5a7b4f4014",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -34,7 +34,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#plugins",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,7 +66,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 403,
+    "width": 256,
     "collapsed": true
   },
   "right": {
@@ -76,7 +76,7 @@
       {
         "id": "32d0cc80d95afd85",
         "type": "tabs",
-        "dimension": 34.98062015503876,
+        "dimension": 37.84355179704017,
         "children": [
           {
             "id": "aa1cfa46beb0d678",
@@ -91,9 +91,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pages/library.md"
-              }
+              "state": {}
             }
           },
           {
@@ -102,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pages/library.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pages/library.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,23 +126,24 @@
       {
         "id": "b82c3f6e69990012",
         "type": "tabs",
-        "dimension": 65.01937984496124,
+        "dimension": 62.15644820295984,
         "children": [
           {
-            "id": "610d7e0d24257c16",
+            "id": "fa68bc5eccd8027f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "pinned": true
             }
           },
           {
-            "id": "02c928e7bd84b856",
+            "id": "dea78d68eb1499bd",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "pages/library.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -169,8 +166,8 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5087618855792589,
-                  "close": true
+                  "scale": 1,
+                  "close": false
                 }
               }
             }
@@ -186,12 +183,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 352,
+    "width": 350,
     "collapsed": true
   },
   "left-ribbon": {
@@ -209,48 +205,52 @@
       "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "9b2dfc471fa33822",
+  "active": "3501be5a7b4f4014",
   "lastOpenFiles": [
-    "library/Curso de Física Básica.md",
-    "library/The Feynman Lectures on Physics.md",
-    "library/The Art of Computer Programming - Vol. 01.md",
-    "library/Teoria Unificada dos Conjuntos.md",
-    "library/Só pode ser brincadeira, Sr. Feynman!.md",
-    "library/Principles of Mathematical Analysis.md",
-    "library/Princípios Matemáticos de Filosofia Natural - Livro II e III.md",
-    "library/Princípios Matemáticos de Filosofia Natural - Livro I.md",
-    "library/Os melhores textos de Richard P. Feynman.md",
-    "library/Os Elementos.md",
-    "library/Mecânica Newtoniana, Lagrangiana e Hamiltoniana.md",
+    "pages/home.md",
+    "daily/2024.08.23 (Fri).md",
+    "attachments/pages/daily.gif",
+    "attachments/pages/giphy.gif",
+    "attachments/pages/giphy.fig",
+    "attachments/pages/giphy.webp",
+    "attachments/pages/urban.gif",
+    "attachments/pages/library.jpg",
+    "pages/library.md",
     "library/Lógica Matemática.md",
-    "library/Fundamentos de Matemática Elementar - Vol. 01.md",
-    "library/Fundamentos de Matemática Elementar.md",
     "library/Curso de Física Básica - Vol. 04.md",
     "library/Curso de Física Básica - Vol. 03.md",
-    "library/Curso de Física Básica - Vol. 02.md",
     "library/Curso de Física Básica - Vol. 01.md",
-    "library/The Feynman Lectures on Physics - Vol. 03.md",
-    "library/The Feynman Lectures on Physics - Vol. 02.md",
-    "library/The Feynman Lectures on Physics - Vol. 01.md",
+    "library/Curso de Física Básica.md",
+    "attachments/pages",
+    "attachments/Pasted image 20240823215402.png",
+    "attachments/Pasted image 20240823214800.png",
+    "attachments/Pasted image 20240823214629.png",
+    "attachments/Pasted image 20240823214531.png",
+    "attachments/Pasted image 20240823214528.png",
+    "templates/page_template.md",
     "templates/literature_template.md",
-    "pages/library.md",
+    "notes/aasdasd.md",
+    "templates/note_template.md",
     "templates/daily_template.md",
-    "pages/home.md",
     "pages/mathematics.md",
+    "library/Rudin Books.md",
+    "library/Principles of Mathematical Analysis.md",
+    "library/The Feynman Lectures on Physics - Vol. I.md",
+    "library/The Feynman Lectures on Physics.md",
+    "library/Princípios Matemáticos de Filosofia Natural - Livro II e III.md",
+    "library/Princípios Matemáticos de Filosofia Natural - Livro I.md",
+    "library/The Feynman Lectures on Physics - Vol. II.md",
+    "library/The Feynman Lectures on Physics - Vol. III.md",
+    "library/The Art of Computer Programming - Vol. I.md",
+    "library/Fundamentos de Matemática Elementar - Vol. 01.md",
+    "library/Fundamentos de Matemática Elementar.md",
     "attachments/excalidraw",
-    "attachments/banners/homepage.gif",
+    "templates/templater",
+    "library",
     "attachments/banners/homepage.gif.crdownload",
-    "attachments/banners/library.avif",
-    "attachments/homepage/banner.gif",
     "attachments/homepage/banner.gif.crdownload",
     "attachments/banners",
-    "attachments/bookshelf.jpg",
     "attachments/banners/library.avif.crdownload",
-    "attachments/bookshelf.jpg.crdownload",
-    "attachments/banners/homepage.png",
-    "attachments/banners/homepage.png.crdownload",
-    "attachments/banners",
-    "attachments/New folder",
-    "library"
+    "attachments/bookshelf.jpg.crdownload"
   ]
 }

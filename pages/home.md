@@ -1,39 +1,60 @@
 ---
 
-created_at: 2024.08.22 (Thu)
+created_at: 2024.08.23 (Fri)
 tags:
   - page
 aliases:
   - homepage
 kanban-plugin: board
 cssclasses:
-  - home-adjusts
+  - page-adjusts
+  - cards
+  - cards-cover
+  - cards-cols-5
+  - cards-2-3
 
 ---
 
 ## 
 
-- [ ] # 🕝 Recent
-	
+- [ ] ## Recent
+	 
 	```dataviewjs
-	dv.list(dv.pages('').sort(f=>f.mtime,"desc").limit(5).file.link).reverse
+	dv.list(
+		dv.pages('').sort(p => p.mtime, "desc").limit(5).file.link
+	).reverse
 	```
 
 
 ## 
 
-- [ ] [![[library.avif]]](library)
+- [ ] ![[daily.gif|120]]
+	`=link(dateformat(date(today), "yyyy.MM.dd (ccc)"))`
 
 
 ## 
 
-- [ ] # [[mathematics|math]]
+- [ ] ## Reading
+	```dataviewjs
+	const literature = dv.pages('#literature').where(l => {
+		return [
+			"reading", "not finished"
+		].includes(l.file.frontmatter.status)
+	})
+	
+	dv.table(["cover"], literature.map(l => {
+		return [
+			`![](${l.cover})`,
+			l.file.link
+		]
+	}).sort(l => l[1]))
+	```
 
 
 
 
 %% kanban:settings
 ```
-{"kanban-plugin":"board","list-collapse":[false,false,false],"new-line-trigger":"shift-enter","hide-card-count":true,"tag-colors":[],"show-add-list":false,"show-set-view":false,"show-view-as-markdown":false,"lane-width":350}
+{"kanban-plugin":"board","list-collapse":[false,false,false],"show-checkboxes":false,"full-list-lane-width":false,"show-set-view":false,"show-view-as-markdown":false,"show-archive-all":false,"show-add-list":false,"hide-card-count":true}
 ```
 %%

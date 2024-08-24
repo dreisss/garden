@@ -19,6 +19,7 @@ status: read
 rating: favorite
 aliases:
   - Fisica Básica - v. 01
+  - "Curso de Física Básica: Mecânica (vol.1)"
 cssclasses:
   - cover-align-center
 ---

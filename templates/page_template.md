@@ -1,20 +1,18 @@
 ---
-
-created_at: 2024.08.23 (Fri)
+created_at: "{{date}}"
 tags:
   - page
-aliases:
-  - bookshelf
-  - books
+aliases: 
 kanban-plugin: board
 cssclasses:
   - page-adjusts
-
+  - cards
+  - cards-cover
+  - cards-2-3
 ---
 
 ## 
 
-- [ ] ![](https://64.media.tumblr.com/6583341566cc8d8652c3e42f74feebb6/tumblr_p1c6qnR49G1wwjnmro1_640.gif)
 
 
 ## 

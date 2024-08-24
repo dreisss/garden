@@ -1,7 +1,7 @@
 ---
 created_at: 2024-08-22
 tags:
-  - literature/book-colection
+  - literature/book-collection
   - subject/physics
 title: The Feynman Lectures on Physics
 authors:
@@ -34,12 +34,6 @@ cssclasses:
  
  É uma coleção de livros de física divididos em três volumes:
 
-```dataviewjs
-dv.list([1, 2, 3].map(n => {
-	const name = `${dv.current().file.name} - Vol. 0${n}`
-	const title = dv.pages('').where(p => p.file.name == name).file.frontmatter.title[0]
-console.log(name)
-	
-	return `[[${name}|${title}]]`
-}))
-```
+- [[The Feynman Lectures on Physics - Vol. I|The Feynman Lectures on Physics, Vol. I: The New Millennium Edition: Mainly Mechanics, Radiation, and Heat]]
+- [[The Feynman Lectures on Physics - Vol. II|The Feynman Lectures on Physics, Vol. II: The New Millennium Edition: Mainly Electromagnetism and Matter]]
+- [[The Feynman Lectures on Physics - Vol. III|The Feynman Lectures on Physics, Vol. III: The New Millennium Edition: Quantum Mechanics]]

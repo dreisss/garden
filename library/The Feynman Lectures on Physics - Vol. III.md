@@ -21,6 +21,7 @@ status: reference reading
 rating: favorite
 aliases:
   - Feynman Lectures - v. 03
+  - "The Feynman Lectures on Physics, Vol. III: The New Millennium Edition: Quantum Mechanics"
 cssclasses:
   - cover-align-center
 ---

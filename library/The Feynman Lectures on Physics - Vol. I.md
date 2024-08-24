@@ -23,6 +23,7 @@ status: reference reading
 rating: favorite
 aliases:
   - Feynman Lectures - v. 01
+  - "The Feynman Lectures on Physics, Vol. I: The New Millennium Edition: Mainly Mechanics, Radiation, and Heat"
 cssclasses:
   - cover-align-center
 ---
