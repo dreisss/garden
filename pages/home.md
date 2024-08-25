@@ -29,7 +29,7 @@ cssclasses:
 ## 
 
 - [ ] ![[daily.gif|120]]
-	`=link(dateformat(date(today), "yyyy.MM.dd (ccc)"))`
+	`=link(dateformat(date(today), "yyyy.MM.dd (ccc)"), "daily")`
 
 
 ## 
