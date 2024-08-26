@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c0e567f8ae76747c",
+        "id": "d150434cb0e46958",
         "type": "tabs",
         "children": [
           {
-            "id": "4e8e9d54111b1ad7",
+            "id": "970af74b4cfcf85d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "daily/2024.08.25 (Sun).md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -38,7 +34,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#subject/biography",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,14 +51,6 @@
               "state": {
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "6fbe40aec2afce1a",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
             }
           }
         ],
@@ -94,9 +82,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "daily/2024.08.25 (Sun).md"
-              }
+              "state": {}
             }
           },
           {
@@ -105,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "daily/2024.08.25 (Sun).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +107,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "daily/2024.08.25 (Sun).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +133,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "daily/2024.08.25 (Sun).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,7 +177,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350
+    "width": 350,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,46 +195,46 @@
       "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "4e8e9d54111b1ad7",
+  "active": "970af74b4cfcf85d",
   "lastOpenFiles": [
+    "templates/note_template.md",
+    "templates/page_template.md",
+    "templates/literature_template.md",
+    "pages/home.md",
+    "library/The Feynman Lectures on Physics.md",
+    "library/The Art of Computer Programming - Vol. I.md",
+    "library/Teoria Unificada dos Conjuntos.md",
+    "library/Só pode ser brincadeira, Sr. Feynman!.md",
+    "library/Principles of Mathematical Analysis.md",
+    "library/Princípios Matemáticos de Filosofia Natural - Livro II e III.md",
+    "library/Princípios Matemáticos de Filosofia Natural - Livro I.md",
+    "library/Os melhores textos de Richard P. Feynman.md",
+    "library/Os Elementos.md",
+    "library/Mecânica Newtoniana, Lagrangiana e Hamiltoniana.md",
+    "library/Lógica Matemática.md",
+    "library/Fundamentos de Matemática Elementar.md",
+    "library/Curso de Física Básica - Vol. 04.md",
+    "library/Curso de Física Básica - Vol. 03.md",
+    "library/Curso de Física Básica - Vol. 02.md",
+    "library/Curso de Física Básica - Vol. 01.md",
+    "library/Curso de Física Básica.md",
+    "daily/2024.08.25 (Sun).md",
     "daily/2024.08.23 (Fri).md",
     "daily/2024.08.22 (Thu).md",
     "daily/2024.08.21 (Wed).md",
     "daily/2024.08.20 (Tue).md",
-    "daily/2024.08.25 (Sun).md",
-    "library/The Feynman Lectures on Physics - Vol. II.md",
-    "library/Curso de Física Básica - Vol. 03.md",
-    "pages/home.md",
     "attachments/pages/daily.gif",
     "attachments/pages/giphy.gif",
     "attachments/pages/giphy.fig",
     "attachments/pages/giphy.webp",
     "attachments/pages/urban.gif",
     "attachments/pages/library.jpg",
-    "pages/library.md",
-    "library/Lógica Matemática.md",
-    "library/Curso de Física Básica - Vol. 04.md",
-    "library/Curso de Física Básica - Vol. 01.md",
-    "library/Curso de Física Básica.md",
     "attachments/pages",
     "attachments/Pasted image 20240823215402.png",
     "attachments/Pasted image 20240823214800.png",
     "attachments/Pasted image 20240823214629.png",
     "attachments/Pasted image 20240823214531.png",
     "attachments/Pasted image 20240823214528.png",
-    "templates/page_template.md",
-    "templates/literature_template.md",
-    "notes/aasdasd.md",
-    "templates/note_template.md",
-    "templates/daily_template.md",
-    "pages/mathematics.md",
-    "library/Rudin Books.md",
-    "library/Principles of Mathematical Analysis.md",
-    "library/The Feynman Lectures on Physics - Vol. I.md",
-    "library/The Feynman Lectures on Physics.md",
-    "library/Princípios Matemáticos de Filosofia Natural - Livro II e III.md",
-    "library/Princípios Matemáticos de Filosofia Natural - Livro I.md",
-    "library/The Feynman Lectures on Physics - Vol. III.md",
     "attachments/excalidraw",
     "templates/templater",
     "library",

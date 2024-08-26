@@ -36,7 +36,6 @@
   "attachments": "LiPaperclip",
   "templates": "LiBookTemplate",
   "pages": "LiAppWindow",
-  "daily": "LiCalendarDays",
   "notes": "LiDatabase",
   "library": "LiLibraryBig"
 }
