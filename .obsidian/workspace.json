@@ -4,15 +4,29 @@
     "type": "split",
     "children": [
       {
-        "id": "d150434cb0e46958",
+        "id": "ea02c1de966a644f",
         "type": "tabs",
         "children": [
           {
-            "id": "970af74b4cfcf85d",
+            "id": "4ce97414b5903b89",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "notes/my math roadmap.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "07a6b7288d8cf4cc",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "attachments/excalidraw/my math roadmap.excalidraw.md"
+              }
             }
           }
         ]
@@ -58,7 +72,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256
+    "width": 256,
+    "collapsed": true
   },
   "right": {
     "id": "df19b8e4e908e17a",
@@ -82,7 +97,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "notes/my math roadmap.md"
+              }
             }
           },
           {
@@ -91,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/my math roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notes/my math roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,6 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "notes/my math roadmap.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -184,7 +204,6 @@
     "hiddenItems": {
       "homepage:Open homepage": false,
       "obsidian-kanban:Create new board": true,
-      "daily-notes:Open today's daily note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "templates:Insert template": true,
@@ -195,12 +214,20 @@
       "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "970af74b4cfcf85d",
+  "active": "4ce97414b5903b89",
   "lastOpenFiles": [
+    "attachments/excalidraw/my math roadmap.excalidraw.md",
+    "notes/my math roadmap.md",
+    "attachments/excalidraw",
+    "pages/home.md",
+    "attachments/map.gif",
+    "attachments/resting-swords.gif",
+    "attachments/bronken-sword.gif",
+    "attachments/home",
+    "attachments/images",
     "templates/note_template.md",
     "templates/page_template.md",
     "templates/literature_template.md",
-    "pages/home.md",
     "library/The Feynman Lectures on Physics.md",
     "library/The Art of Computer Programming - Vol. I.md",
     "library/Teoria Unificada dos Conjuntos.md",
@@ -221,8 +248,6 @@
     "daily/2024.08.25 (Sun).md",
     "daily/2024.08.23 (Fri).md",
     "daily/2024.08.22 (Thu).md",
-    "daily/2024.08.21 (Wed).md",
-    "daily/2024.08.20 (Tue).md",
     "attachments/pages/daily.gif",
     "attachments/pages/giphy.gif",
     "attachments/pages/giphy.fig",
@@ -232,16 +257,10 @@
     "attachments/pages",
     "attachments/Pasted image 20240823215402.png",
     "attachments/Pasted image 20240823214800.png",
-    "attachments/Pasted image 20240823214629.png",
-    "attachments/Pasted image 20240823214531.png",
-    "attachments/Pasted image 20240823214528.png",
-    "attachments/excalidraw",
     "templates/templater",
     "library",
     "attachments/banners/homepage.gif.crdownload",
     "attachments/homepage/banner.gif.crdownload",
-    "attachments/banners",
-    "attachments/banners/library.avif.crdownload",
-    "attachments/bookshelf.jpg.crdownload"
+    "attachments/banners"
   ]
 }

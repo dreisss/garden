@@ -14,14 +14,17 @@ cssclasses:
 
 ## 
 
+- [ ] ## [[my math roadmap|My math roadmap]]
 
 
 ## 
 
+- [ ] ![[bronken-sword.gif]]
 
 
 ## 
 
+- [ ] ![[resting-swords.gif]]
 
 
 
