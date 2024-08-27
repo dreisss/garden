@@ -4,28 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ea02c1de966a644f",
+        "id": "e068583fa6f89c50",
         "type": "tabs",
         "children": [
           {
-            "id": "4ce97414b5903b89",
+            "id": "d13d8d4080a32308",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/my math roadmap.md",
+                "file": "notes/My math roadmap.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "07a6b7288d8cf4cc",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "attachments/excalidraw/my math roadmap.excalidraw.md"
               }
             }
           }
@@ -98,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/my math roadmap.md"
+                "file": "notes/My math roadmap.md"
               }
             }
           },
@@ -108,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/my math roadmap.md",
+                "file": "notes/My math roadmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/my math roadmap.md",
+                "file": "notes/My math roadmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "notes/my math roadmap.md",
+                "file": "notes/My math roadmap.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -214,13 +204,18 @@
       "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "4ce97414b5903b89",
+  "active": "d13d8d4080a32308",
   "lastOpenFiles": [
-    "attachments/excalidraw/my math roadmap.excalidraw.md",
-    "notes/my math roadmap.md",
-    "attachments/excalidraw",
     "pages/home.md",
-    "attachments/map.gif",
+    "notes/My math roadmap.md",
+    "notes/Why I want to create \"math roadmap\".md",
+    "library/The Art of Computer Programming.md",
+    "library/The Art of Computer Programming - Vol. I.md",
+    "library/Teoria Unificada dos Conjuntos.md",
+    "library/The Feynman Lectures on Physics.md",
+    "attachments/excalidraw/my math roadmap.excalidraw.md",
+    "attachments/roadmap.gif",
+    "attachments/excalidraw",
     "attachments/resting-swords.gif",
     "attachments/bronken-sword.gif",
     "attachments/home",
@@ -228,9 +223,6 @@
     "templates/note_template.md",
     "templates/page_template.md",
     "templates/literature_template.md",
-    "library/The Feynman Lectures on Physics.md",
-    "library/The Art of Computer Programming - Vol. I.md",
-    "library/Teoria Unificada dos Conjuntos.md",
     "library/Só pode ser brincadeira, Sr. Feynman!.md",
     "library/Principles of Mathematical Analysis.md",
     "library/Princípios Matemáticos de Filosofia Natural - Livro II e III.md",
@@ -246,8 +238,6 @@
     "library/Curso de Física Básica - Vol. 01.md",
     "library/Curso de Física Básica.md",
     "daily/2024.08.25 (Sun).md",
-    "daily/2024.08.23 (Fri).md",
-    "daily/2024.08.22 (Thu).md",
     "attachments/pages/daily.gif",
     "attachments/pages/giphy.gif",
     "attachments/pages/giphy.fig",

@@ -14,7 +14,7 @@ cssclasses:
 
 ## 
 
-- [ ] ## [[my math roadmap|My math roadmap]]
+- [ ] ## [[My math roadmap]]
 
 
 ## 
