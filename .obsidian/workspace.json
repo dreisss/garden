@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e068583fa6f89c50",
+        "id": "3ae8b79123a2718c",
         "type": "tabs",
         "children": [
           {
-            "id": "d13d8d4080a32308",
+            "id": "2ad68bbc4ff9d002",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/My math roadmap.md"
+                "file": "pages/home.md"
               }
             }
           },
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/My math roadmap.md",
+                "file": "pages/home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/My math roadmap.md",
+                "file": "pages/home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "notes/My math roadmap.md",
+                "file": "pages/home.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,11 +204,20 @@
       "obsidian-book-search-plugin:Create new book note": false
     }
   },
-  "active": "d13d8d4080a32308",
+  "active": "9b2dfc471fa33822",
   "lastOpenFiles": [
-    "pages/home.md",
+    "library/Lógica Matemática.md",
+    "library/Logic (Intuition - FME).md",
+    "library/Fundamentos de Matemática Elementar - Vol. 01.md",
+    "library/Untitled.md",
+    "library/The Feynman Lectures on Physics - Vol. III.md",
+    "library/The Feynman Lectures on Physics - Vol. II.md",
+    "notes/Logic.md",
+    "attachments/excalidraw/logic roadmap.excalidraw.md",
     "notes/My math roadmap.md",
+    "pages/home.md",
     "notes/Why I want to create \"math roadmap\".md",
+    "notes/Roadmap general organisation.md",
     "library/The Art of Computer Programming.md",
     "library/The Art of Computer Programming - Vol. I.md",
     "library/Teoria Unificada dos Conjuntos.md",
@@ -229,15 +238,6 @@
     "library/Princípios Matemáticos de Filosofia Natural - Livro I.md",
     "library/Os melhores textos de Richard P. Feynman.md",
     "library/Os Elementos.md",
-    "library/Mecânica Newtoniana, Lagrangiana e Hamiltoniana.md",
-    "library/Lógica Matemática.md",
-    "library/Fundamentos de Matemática Elementar.md",
-    "library/Curso de Física Básica - Vol. 04.md",
-    "library/Curso de Física Básica - Vol. 03.md",
-    "library/Curso de Física Básica - Vol. 02.md",
-    "library/Curso de Física Básica - Vol. 01.md",
-    "library/Curso de Física Básica.md",
-    "daily/2024.08.25 (Sun).md",
     "attachments/pages/daily.gif",
     "attachments/pages/giphy.gif",
     "attachments/pages/giphy.fig",

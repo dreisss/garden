@@ -1,7 +1,8 @@
 ---
 created_at: 2024.08.26 (Mon)
 tags:
-  - "#subject/mathematics"
+  - note/map
+  - subject/mathematics
 aliases:
 ---
 ![[roadmap.gif|500]]
@@ -44,8 +45,12 @@ You'll can see all this material in the [[library]] page.
 
 All my decisions will be registered in this garden, and you can understand my thoughts about my organisation.
 
-Starting from the start: [[Logic roadmap]]
+Starting from the start: [[Logic]]
 
 > [!warning]
 > All content here will always be in development, and not complete (like math never is). If something is wrong, it will be fixed sometime.
 > 
+
+## Some rules and observations
+
+- The road map is organised in smaller road maps, for each topic or subject, depending the depth of the subject or topic. 

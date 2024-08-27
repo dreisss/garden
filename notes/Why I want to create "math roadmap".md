@@ -1,7 +1,7 @@
 ---
 created_at: 2024.08.26 (Mon)
 tags:
-  - "#note"
+  - "#note/motivation"
   - subject/mathematics
 aliases:
 ---
@@ -13,7 +13,7 @@ It's a university focused in engineering, and my parents wanted me to follow thi
 
 Unfortunately I couldn't enter in ITA, i was not prepared. When I started studying by myself at home in pandemic I realised that my school teaching was precarious and not enough to me.
 
-Today (26/06/2024, It has 4 year that I tried to enter in ITA. I graduated, in other course that I don't wanted, stopped studying math, entered in a job that is not what I like properly, my life moved on... But I never complied to not know things clearly, and with that intention that I want to study properly, all subjects I'm interested at.
+Today (26/06/2024), It has ~4 year that I tried to enter in ITA. I graduated, in other course that I don't wanted, stopped studying math, entered in a job that is not what I like properly, my life moved on... But I never complied to not know things clearly, and with that intention that I want to study properly, all subjects I'm interested at.
 
 That's why I created [[My math roadmap]]. And I pretend to create more and more, not only math, but physics, biology, chemistry, music, literature, photography, design and so on. 
 
