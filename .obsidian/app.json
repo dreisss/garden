@@ -1,0 +1,9 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "slipbox",
+  "attachmentFolderPath": "attachments",
+  "promptDelete": false,
+  "tabSize": 2,
+  "showRibbon": false,
+  "defaultViewMode": "preview"
+}
