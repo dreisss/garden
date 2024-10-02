@@ -25,11 +25,11 @@ Estou muito motivado por alguns canais de matemática e estudos que vi recenteme
 Alguns dos problemas (com as soluções) que passei para seguir adiante com esse método:
 
 - Preciso de um método para ler PDFs e fazer anotações e também armazenar:
-	- Posso armazenar utilizando o [[git]] com [[git lfs]] no [repositório](https://github.com/dreisss/garden) no [[GitHub]].
-	- Para fazer anotações no [[obsidian]] vou utilizar o plugin [[obsidian pdf++|PDF++]].
+	- Posso armazenar utilizando o [[Git]] com [[Git LFS]] no [repositório](https://github.com/dreisss/garden) no [[GitHub]].
+	- Para fazer anotações no [[Obsidian]] vou utilizar o plugin [[Obsidian PDF++|PDF++]].
 - Como organizar as anotações:
-	- Pretendo utilizar uma variação do método [[slipbox]].
-	- A ideia é inicialmente fazer anotações sobre matemática, mas no futuro sobre qualquer coisa que me interesse, e criar um [[digital garden]] nomeio do caminho.
+	- Pretendo utilizar uma variação do método [[Slipbox]].
+	- A ideia é inicialmente fazer anotações sobre matemática, mas no futuro sobre qualquer coisa que me interesse, e criar um [[Digital Garden]] nomeio do caminho.
 	
 ## Início
 

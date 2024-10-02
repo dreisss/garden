@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8638ef6b24b0093b",
+        "id": "6884d202ee878ef2",
         "type": "tabs",
         "children": [
           {
-            "id": "3bf6fd211492cce3",
+            "id": "cd05049741ac357a",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "attachments/books/Walter Rudin - Principles of Mathematical Analysis.pdf",
-                "page": 12,
+                "page": 13,
                 "left": -17,
-                "top": 413,
+                "top": 571,
                 "zoom": 0.9
               }
             }
@@ -24,17 +24,30 @@
         ]
       },
       {
-        "id": "7876fb3b318af81f",
+        "id": "726ead8e372fc256",
         "type": "tabs",
         "children": [
           {
-            "id": "abd25db78164aa08",
+            "id": "27278b8f90c7e810",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "slipbox/The rational numbers set has gaps.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "53c22cece1e5822f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "slipbox/The square root of 2 is irrational.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -99,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "slipbox/The square root of 2 is irrational.md",
+                "file": "slipbox/The rational numbers set has gaps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -111,7 +124,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "slipbox/The square root of 2 is irrational.md"
+                "file": "slipbox/The rational numbers set has gaps.md"
               }
             }
           },
@@ -139,7 +152,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "slipbox/The square root of 2 is irrational.md",
+                "file": "slipbox/The rational numbers set has gaps.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,20 +201,21 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "abd25db78164aa08",
+  "active": "27278b8f90c7e810",
   "lastOpenFiles": [
-    "slipbox/Principles of Mathematical Analysis - ch. 01.md",
-    "attachments/books/Walter Rudin - Principles of Mathematical Analysis.pdf",
     "slipbox/The square root of 2 is irrational.md",
+    "slipbox/The rational numbers set has gaps.md",
+    "attachments/books/Walter Rudin - Principles of Mathematical Analysis.pdf",
+    "slipbox/Principles of Mathematical Analysis - ch. 01.md",
     "slipbox/Principles of Mathematical Analysis.md",
-    "slipbox/obsidian pdf++.md",
-    "slipbox/git lfs.md",
     "slipbox/About Math I.md",
-    "slipbox/mathematics.md",
-    "templates/template_literature.md",
-    "templates/template_note.md",
+    "slipbox/Obsidian PDF++.md",
+    "slipbox/Mathematics.md",
     "slipbox/About Motivation I.md",
     "slipbox/Motivation.md",
+    "slipbox/git lfs.md",
+    "templates/template_literature.md",
+    "templates/template_note.md",
     "attachments/books",
     "literature",
     "slipbox/Untitled 1.md",

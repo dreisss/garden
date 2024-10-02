@@ -9,8 +9,6 @@ aliases:
 ---
 # The Real and Complex Number Systems
 
-This chapter will discourse about the construction of [[Real Numbers]] from [[Rational Numbers]] and some of their properties.
-
 ## Introduction
 
 - We shall define the [[Real Numbers]] to have satisfactory studying of [[Real Analysis]].
@@ -18,7 +16,7 @@ This chapter will discourse about the construction of [[Real Numbers]] from [[Ra
 > [!PDF|yellow] [[Walter Rudin - Principles of Mathematical Analysis.pdf#page=12&selection=14,0,16,22&color=yellow|Walter Rudin - Principles of Mathematical Analysis, p.12]]
 > > A satisfactory discussion of the main concepts of analysis (such as convergence, continuity, differentiation, and integration) must be based on an accurately defined number concept
 
-- The [[Rational Numbers]] is not sufficient to use concepts like [[convergence]], [[continuity]], [[differentiation]] and [[integration]].
+- The [[Rational Numbers]] is not sufficient to use concepts like [[Convergence]], [[Continuity]], [[Differentiation]] and [[Integration]].
 
 > [!PDF|yellow] [[Walter Rudin - Principles of Mathematical Analysis.pdf#page=12&selection=40,0,41,28&color=yellow|Walter Rudin - Principles of Mathematical Analysis, p.12]]
 > > The rational number system is inadequate for many purposes, both as a field and as an ordered set.
@@ -35,4 +33,5 @@ This chapter will discourse about the construction of [[Real Numbers]] from [[Ra
 > > This sort of question can be answered as soon as the so-called "real number system" is constructed.
 > 
 
-- [[The square root of 2 is irrational]]
+- [[The square root of 2 is irrational]] 
+- [[The rational numbers set has gaps]]

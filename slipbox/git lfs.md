@@ -7,4 +7,4 @@ aliases:
 ---
 
 > [!tldr] tl;dr
-> It's a [[git]] extension that provides a proper way to store and version large files in a git repository.
+> It's a [[Git]] extension that provides a proper way to store and version large files in a git repository.
