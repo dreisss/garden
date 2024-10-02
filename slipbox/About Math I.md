@@ -1,9 +1,9 @@
 ---
 created_at: 2024-10-01
-updated_at: 2024-10-01
+updated_at: 2024-10-02T13:44:06-03:00
 tags:
   - note/permanent
-aliases:
+aliases: 
 ---
 ## Um pouco sobre antes
 
@@ -26,10 +26,11 @@ Alguns dos problemas (com as soluções) que passei para seguir adiante com esse
 
 - Preciso de um método para ler PDFs e fazer anotações e também armazenar:
 	- Posso armazenar utilizando o [[Git]] com [[Git LFS]] no [repositório](https://github.com/dreisss/garden) no [[GitHub]].
-	- Para fazer anotações no [[Obsidian]] vou utilizar o plugin [[Obsidian PDF++|PDF++]].
+	- Para fazer anotações no [[Obsidian]] vou utilizar o plugin [PDF++](https://github.com/RyotaUshio/obsidian-pdf-plus) (pequeno guia [O MELHOR PLUGIN de PDF's do OBSIDIAN!! PDF++](https://www.youtube.com/watch?v=c2zz2gHU_Wo)).
 - Como organizar as anotações:
 	- Pretendo utilizar uma variação do método [[Slipbox]].
 	- A ideia é inicialmente fazer anotações sobre matemática, mas no futuro sobre qualquer coisa que me interesse, e criar um [[Digital Garden]] nomeio do caminho.
+	- Estou utilizando o [Update modified field on edit](https://github.com/alangrainger/obsidian-frontmatter-modified-date) para atualizar o compo `updated_at` de cada arquivo e edito.q
 	
 ## Início
 
