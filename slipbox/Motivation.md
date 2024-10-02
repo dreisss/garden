@@ -1,9 +1,10 @@
 ---
 created_at: 2024-09-27
+updated_at: 2024-09-27
 tags:
-  - note/fleeting
+  - note/moc
 aliases:
 ---
 ## Desabafos/Reflexões:
 
-- [[Motivation I]]
+- [[About Motivation I]]
