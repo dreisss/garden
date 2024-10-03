@@ -16,8 +16,21 @@
                 "file": "attachments/books/Walter Rudin - Principles of Mathematical Analysis.pdf",
                 "page": 13,
                 "left": -17,
-                "top": 749,
+                "top": 69,
                 "zoom": 0.9
+              }
+            }
+          },
+          {
+            "id": "d679ccebd7813b35",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "slipbox/About Math I.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -33,7 +46,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "literature/The rational numbers set has gaps.md",
+                "file": "literature/Principles of Mathematical Analysis - ch. 01.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -41,19 +54,20 @@
             }
           },
           {
-            "id": "53c22cece1e5822f",
+            "id": "22065e8355d6cdd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "literature/The square root of 2 is irrational.md",
-                "mode": "preview",
+                "file": "literature/The rational numbers set has gaps.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,21 +215,23 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "27278b8f90c7e810",
+  "active": "22065e8355d6cdd9",
   "lastOpenFiles": [
-    "literature/The square root of 2 is irrational.md",
+    "literature/Principles of Mathematical Analysis - ch. 01.md",
     "literature/The rational numbers set has gaps.md",
+    "attachments/books/Walter Rudin - Principles of Mathematical Analysis.pdf",
+    "slipbox/About Math I.md",
+    "attachments/excalidraw/Drawing 2024-10-03 19.14.08.excalidraw.md",
+    "slipbox/Ordered Set.md",
+    "literature/The square root of 2 is irrational.md",
     "attachments/excalidraw/The rational numbers set has gaps proof - geometric intuition.md",
     "attachments/excalidraw",
-    "literature/Principles of Mathematical Analysis - ch. 01.md",
     "literature/Principles of Mathematical Analysis.md",
-    "slipbox/About Math I.md",
     "slipbox/Mathematics.md",
     "slipbox/About Motivation I.md",
     "slipbox/Motivation.md",
     "slipbox/Obsidian PDF++.md",
     "slipbox/git lfs.md",
-    "attachments/books/Walter Rudin - Principles of Mathematical Analysis.pdf",
     "templates/template_literature.md",
     "templates/template_note.md",
     "attachments/books",

@@ -1,6 +1,6 @@
 ---
 created_at: 2024-10-01
-updated_at: 2024-10-02T13:44:06-03:00
+updated_at: 2024-10-03T19:19:37-03:00
 tags:
   - note/permanent
 aliases: 
@@ -30,7 +30,8 @@ Alguns dos problemas (com as soluções) que passei para seguir adiante com esse
 - Como organizar as anotações:
 	- Pretendo utilizar uma variação do método [[Slipbox]].
 	- A ideia é inicialmente fazer anotações sobre matemática, mas no futuro sobre qualquer coisa que me interesse, e criar um [[Digital Garden]] nomeio do caminho.
-	- Estou utilizando o [Update modified field on edit](https://github.com/alangrainger/obsidian-frontmatter-modified-date) para atualizar o compo `updated_at` de cada arquivo e edito.q
+	- Estou utilizando o [Update modified field on edit](https://github.com/alangrainger/obsidian-frontmatter-modified-date) para atualizar o campo `updated_at` de cada arquivo que edito
+	- Também estou utilizando o [Obsidian Desmos](https://github.com/Nigecat/obsidian-desmos) para colocar gráficos nas minhas notas.
 	
 ## Início
 

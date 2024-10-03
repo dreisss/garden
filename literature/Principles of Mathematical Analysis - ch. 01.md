@@ -1,6 +1,6 @@
 ---
 created_at: 2024-10-01
-updated_at: 2024-10-01
+updated_at: 2024-10-03T18:58:20-03:00
 tags:
   - note/literature/book-chapter
 aliases:
@@ -24,14 +24,30 @@ aliases:
 > 
 
 > [!PDF|yellow] [[Walter Rudin - Principles of Mathematical Analysis.pdf#page=12&color=yellow|Walter Rudin - Principles of Mathematical Analysis, p.12]]
-> > For instance, there is no rational p such that $p^2 = 2$. (We shall prove this presently.) This leads to the introduction of so-called "irrational numbers" which are often written as infinite decimal expansions and are considered to be "approximated" by the corresponding finite decimals. Thus the sequence
+> > For instance, there is no rational p such that $p^2 = 2$. (We shall prove this presently.) This leads to the introduction of so-called "[[Irrational Numbers|irrational numbers]]" which are often written as infinite decimal expansions and are considered to be "approximated" by the corresponding finite decimals. Thus the sequence
 > > 
 > > $1 , 1 .4, 1 .41 , 1 .414, 1 .4142, . . .$
 > > 
-> > "tends to $\sqrt2$." But unless the irrational number $\sqrt2$ has been clearly defined, the question must arise: Just what is it that this sequence "tends to" ?
+> > "tends to $\sqrt2$." But unless the [[Irrational Numbers|irrational number]] $\sqrt2$ has been clearly defined, the question must arise: Just what is it that this sequence "tends to" ?
 > > 
-> > This sort of question can be answered as soon as the so-called "real number system" is constructed.
+> > This sort of question can be answered as soon as the so-called "[[Real Numbers|real number system]]" is constructed.
 > 
 
 - [[The square root of 2 is irrational]] 
 - [[The rational numbers set has gaps]]
+- The [[Real Numbers|real number]] system fills these gaps
+- [[Ordered Set]] and [[Field]] are fundamental concepts to analysis study
+- Some [[Set]] operations and notations will be used in this book:
+
+> [!PDF|yellow] [[Walter Rudin - Principles of Mathematical Analysis.pdf#page=14&selection=24,0,35,1&color=yellow|Walter Rudin - Principles of Mathematical Analysis, p.14]]
+> > If A is any [[Set|set]] (whose elements may be numbers or any other objects), we write $x\in A$ to indicate that x is a member (or an element) of A. ([[Set Element]])
+
+> [!PDF|yellow] [[Walter Rudin - Principles of Mathematical Analysis.pdf#page=14&selection=37,0,43,2&color=yellow|Walter Rudin - Principles of Mathematical Analysis, p.14]]
+> > If x is not a member of A, we write: $x\notin A$ . ([[Set Element]])
+
+> [!PDF|yellow] [[Walter Rudin - Principles of Mathematical Analysis.pdf#page=14&selection=45,0,52,9&color=yellow|Walter Rudin - Principles of Mathematical Analysis, p.14]]
+> > The set which contains no element will be called the [[Empty Set|empty set]]. If a set has at least one element, it is called [[Nonempty Set|nonempty set]].
+
+> [!PDF|yellow] [[Walter Rudin - Principles of Mathematical Analysis.pdf#page=14&selection=54,0,107,2&color=yellow|Walter Rudin - Principles of Mathematical Analysis, p.14]]
+> > If A and B are sets, and if every element of A is an element of B, we say that A is a ***[[Subset|subset]]*** of B, and write $A\subset B$, or $B\supset A$. If, in addition, there is an element of B which is not in A, then A is said to be a ***[[Proper Subset|proper subset]]*** of B. Note that $A\subset A$ for every set A.
+

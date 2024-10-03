@@ -1,6 +1,6 @@
 ---
 created_at: 2024-10-01
-updated_at: 2024-10-02T14:06:02-03:00
+updated_at: 2024-10-03T19:53:22-03:00
 tags:
   - note/literature/proposition
 aliases: 
@@ -35,3 +35,28 @@ q^2=\frac{p^2-2}{2}\implies q^2-2=\frac{p^2+2}{2}\implies q^2>2\implies q<p\wedg
 $$
 ### [[Walter Rudin - Principles of Mathematical Analysis.pdf#page=13&selection=102,0,132,18&color=yellow|Walter Rudin - Principles of Mathematical Analysis, p.13]]
 
+Consider:
+$$
+q=p-\frac{p^2-2}{p+2}=\frac{2p+2}{p+2}
+$$
+and:
+$$
+q^2-2=\frac{2(p^2-2)}{(p+2)^2}
+$$
+we have two cases:
+$$
+\begin{cases}
+p\in A\implies p^2-2<0\implies q^2<2\implies q\in A\\
+p\in B\implies p^2-2>0\implies q^2>2\implies q\in B\\
+\end{cases}
+$$Here is a representation of the q (blue) number as a function of p and q² (red):
+
+```desmos-graph
+left=0; right=2
+top=2;bottom=0
+---
+f(x)=\sqrt{2}|green|dashed
+x(y)=\sqrt{2}|green|dashed
+q(p)=(2p+2)/(p+2)|blue
+q_2(p)=q(p)^2|red
+```
