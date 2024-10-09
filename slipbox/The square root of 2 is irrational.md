@@ -1,12 +1,13 @@
 ---
 created_at: 2024-10-01
-updated_at: 2024-10-01
+updated_at: 2024-10-08T21:56:47-03:00
 tags:
   - note/literature/proposition
-aliases:
+aliases: 
 ---
+## Formal
 
-> [!important] Proposition: The square root of 2 is irrational
+> [!important] Proposition: The [[square root]] of 2 is [[Irrational Numbers|irrational]]
 > $\sqrt2\notin\mathbb{Q}\text{ or }\nexists p\in\mathbb{Q}|p^2=2$
 
 ## Proofs

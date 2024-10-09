@@ -1,6 +1,6 @@
 ---
 created_at: 2024-10-01
-updated_at: 2024-10-03T18:58:20-03:00
+updated_at: 2024-10-08T22:17:17-03:00
 tags:
   - note/literature/book-chapter
 aliases:
@@ -51,3 +51,10 @@ aliases:
 > [!PDF|yellow] [[Walter Rudin - Principles of Mathematical Analysis.pdf#page=14&selection=54,0,107,2&color=yellow|Walter Rudin - Principles of Mathematical Analysis, p.14]]
 > > If A and B are sets, and if every element of A is an element of B, we say that A is a ***[[Subset|subset]]*** of B, and write $A\subset B$, or $B\supset A$. If, in addition, there is an element of B which is not in A, then A is said to be a ***[[Proper Subset|proper subset]]*** of B. Note that $A\subset A$ for every set A.
 
+> [!PDF|yellow] [[Walter Rudin - Principles of Mathematical Analysis.pdf#page=14&selection=109,0,131,1&color=yellow|Walter Rudin - Principles of Mathematical Analysis, p.14]]
+> > If $A\subset B$ and $B\supset A$, we write $A=B$. Otherwise $A\ne B$
+
+- Definition: [[Order]]
+- Definition: [[Ordered Set]]
+- Definition: [[Bounded Set]]
+- 

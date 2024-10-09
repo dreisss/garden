@@ -2,7 +2,7 @@
 created_at: 2024-09-27
 updated_at: 2024-09-27
 tags:
-  - note/permanent
+  - note/fleeting
 aliases:
 ---
 Estou desmotivado. De novo.

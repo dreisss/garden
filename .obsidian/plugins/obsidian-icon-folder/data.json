@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiPencilRuler",
       "LiPaperclip",
       "LiBookTemplate",
       "LiDatabase",
-      "LiLibraryBig",
-      "LiInbox"
+      "LiLibraryBig"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -34,7 +34,8 @@
     "debugMode": false
   },
   "attachments": "LiPaperclip",
-  "literature": "LiLibraryBig",
   "slipbox": "LiInbox",
-  "templates": "LiBookTemplate"
+  "templates": "LiBookTemplate",
+  "attachments/books": "LiLibraryBig",
+  "attachments/draws": "LiPencilRuler"
 }

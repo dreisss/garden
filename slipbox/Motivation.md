@@ -4,6 +4,7 @@ updated_at: 2024-09-27
 tags:
   - note/moc
 aliases:
+  - motivação
 ---
 ## Desabafos/Reflexões:
 

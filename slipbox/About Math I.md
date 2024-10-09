@@ -1,9 +1,9 @@
 ---
 created_at: 2024-10-01
-updated_at: 2024-10-03T19:19:37-03:00
+updated_at: 2024-10-08T21:58:03-03:00
 tags:
-  - note/permanent
-aliases: 
+  - note/fleeting
+aliases:
 ---
 ## Um pouco sobre antes
 
@@ -38,3 +38,7 @@ Alguns dos problemas (com as soluções) que passei para seguir adiante com esse
 A principio pretendo utilizar como "guia principal" o livro [[Principles of Mathematical Analysis]], derivando outras referências e notas a partir dele.
 
 Após terminar ele não sei exatamente para onde vou, mas quero pelo menos terminar ele.
+
+## Continuação
+
+Leia [[About Math II]]

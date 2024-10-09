@@ -1,6 +1,6 @@
 ---
 created_at: 2024-10-01
-updated_at: 2024-10-03T19:53:22-03:00
+updated_at: 2024-10-08T21:24:23-03:00
 tags:
   - note/literature/proposition
 aliases: 
@@ -52,11 +52,16 @@ p\in B\implies p^2-2>0\implies q^2>2\implies q\in B\\
 $$Here is a representation of the q (blue) number as a function of p and q² (red):
 
 ```desmos-graph
-left=0; right=2
-top=2;bottom=0
+left=0; right=3
+top=3;bottom=0
 ---
 f(x)=\sqrt{2}|green|dashed
+g(x)=x|green|dashed
 x(y)=\sqrt{2}|green|dashed
 q(p)=(2p+2)/(p+2)|blue
 q_2(p)=q(p)^2|red
 ```
+
+note that:
+- for $p^2<2$, $\forall q\in A,q>p$ 
+- for $p^2>2$, $\forall q\in B,q<p$
