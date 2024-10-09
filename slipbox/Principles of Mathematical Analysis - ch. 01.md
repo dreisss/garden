@@ -1,6 +1,6 @@
 ---
 created_at: 2024-10-01
-updated_at: 2024-10-08T22:17:17-03:00
+updated_at: 2024-10-09T19:43:10-03:00
 tags:
   - note/literature/book-chapter
 aliases:
@@ -57,4 +57,29 @@ aliases:
 - Definition: [[Order]]
 - Definition: [[Ordered Set]]
 - Definition: [[Bounded Set]]
-- 
+- Definition: [[Infimum and Supremum]]
+- Examples:
+
+> [!PDF|yellow] [[Walter Rudin - Principles of Mathematical Analysis.pdf#page=15&selection=125,0,125,3&color=yellow|Walter Rudin - Principles of Mathematical Analysis, p.15]]
+> $$A=\{p\in\mathbb{Q}|p^2<2\}\text{, }B=\{p\in\mathbb{Q}|p^2>2\}$$
+> $A$ is [[Bounded Set|bounded above]]. The upper bounds of $A$ are the members of $B$. Since $B$ has no smallest member, $A$ has no [[Infimum and Supremum|least upper bound]] in $\mathbb{Q}$.
+> 
+> The same logic applies to $B$.
+
+> [!PDF|yellow] [[Walter Rudin - Principles of Mathematical Analysis.pdf#page=15&selection=191,0,191,3&color=yellow|Walter Rudin - Principles of Mathematical Analysis, p.15]]
+> If $\alpha=\text{sup }E$ exists, then $\alpha$ may or may not be a member of $E$. Let
+> $$E_1=\mathbb{Q}^{-*}, E_2=\mathbb{Q}^{-}$$
+> Then
+> $$\text{sup }E_1=\text{sup }E_2=0\text{ | }0\notin E_1\text{, }0\in E_2$$
+> 
+
+> [!PDF|yellow] [[Walter Rudin - Principles of Mathematical Analysis.pdf#page=15&selection=270,0,270,3&color=yellow|Walter Rudin - Principles of Mathematical Analysis, p.15]]
+> $$
+> E=\{\frac{1}{n}|n\in\mathbb{N}^*\}\implies
+> \begin{cases}
+> \text{sup }E=1\in E\\
+> \text{inf }E=0\notin E
+> \end{cases}
+> $$
+> 
+

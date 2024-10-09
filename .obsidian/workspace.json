@@ -14,9 +14,9 @@
               "type": "pdf",
               "state": {
                 "file": "attachments/books/Walter Rudin - Principles of Mathematical Analysis.pdf",
-                "page": 14,
+                "page": 15,
                 "left": -16,
-                "top": 235,
+                "top": 611,
                 "zoom": 0.9007356767831307
               }
             }
@@ -202,20 +202,23 @@
   },
   "active": "2c09c0c33669d1cb",
   "lastOpenFiles": [
-    "slipbox/Bounded Set.md",
     "attachments/books/Walter Rudin - Principles of Mathematical Analysis.pdf",
     "slipbox/Principles of Mathematical Analysis - ch. 01.md",
+    "slipbox/Infimum and Supremum.md",
+    "slipbox/Bounded Set.md",
+    "slipbox/Order.md",
+    "slipbox/Set.md",
+    "slipbox/Ordered Set.md",
+    "slipbox/bounded.md",
     "slipbox/The square root of 2 is irrational.md",
     "slipbox/The rational numbers set has gaps.md",
     "slipbox/Principles of Mathematical Analysis.md",
-    "slipbox/Order.md",
     "slipbox/git lfs.md",
     "slipbox/About Motivation I.md",
     "slipbox/About Math II.md",
     "slipbox/About Math I.md",
     "slipbox/Motivation.md",
     "slipbox/Relation.md",
-    "slipbox/Ordered Set.md",
     "attachments/draws/The rational numbers set has gaps proof - geometric intuition.md",
     "attachments/excalidraw/Drawing 2024-10-03 19.14.08.excalidraw.md",
     "attachments/draws",
