@@ -1,0 +1,175 @@
+{
+  "main": {
+    "id": "183b099489c5c95f",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc4a6ae1645c5aea",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15473dd3318d7b9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "library/Surely You're Joking, Mr. Feynman!.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Surely You're Joking, Mr. Feynman!"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "963634eb372a8d1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "45b02e6e55d2610c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b72cb050663d0de",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ead6870565634980",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d7971cc5a69a8f2d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "9e78b450d08e33d1",
+    "type": "split",
+    "children": [
+      {
+        "id": "40d3f8bb1dcf20c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "65a4b1c573cd469d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "library/Surely You're Joking, Mr. Feynman!.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Surely You're Joking, Mr. Feynman!"
+            }
+          },
+          {
+            "id": "cab7d274eaa2b493",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "library/Surely You're Joking, Mr. Feynman!.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Surely You're Joking, Mr. Feynman!"
+            }
+          },
+          {
+            "id": "39391c4501ee70e7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "47097858143d6973",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "library/Surely You're Joking, Mr. Feynman!.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Surely You're Joking, Mr. Feynman!"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "15473dd3318d7b9d",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "library/Surely You're Joking, Mr. Feynman!.md",
+    "attachments/covers",
+    "attachments",
+    "library",
+    "library"
+  ]
+}

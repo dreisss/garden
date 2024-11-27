@@ -1,0 +1,13 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "start": "date",
+    "finish": "date",
+    "author": "multitext",
+    "read status": "multitext",
+    "reading status": "multitext",
+    "cover": "multitext"
+  }
+}
