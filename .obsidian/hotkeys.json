@@ -1,27 +1,30 @@
 {
-  "app:toggle-ribbon": [
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
+  ],
+  "file-explorer:new-file": [],
+  "app:toggle-left-sidebar": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
-      "key": "["
+      "key": "B"
     }
   ],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
-        "Mod"
+        "Alt",
+        "Mod",
+        "Shift"
       ],
-      "key": "]"
-    }
-  ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "["
+      "key": "B"
     }
   ]
 }

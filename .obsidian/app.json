@@ -1,4 +1,9 @@
 {
   "promptDelete": false,
-  "showRibbon": false
+  "showRibbon": false,
+  "defaultViewMode": "preview",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "slipbox",
+  "attachmentFolderPath": "attachments",
+  "alwaysUpdateLinks": true
 }

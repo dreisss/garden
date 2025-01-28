@@ -1,0 +1,18 @@
+{
+  "dateFormat": "yyyy-MM-dd",
+  "enableCreateTime": true,
+  "headerUpdated": "updated_at",
+  "headerCreated": "created_at",
+  "minMinutesBetweenSaves": 10,
+  "ignoreGlobalFolder": [
+    "daily",
+    "attachments",
+    "templates"
+  ],
+  "ignoreCreatedFolder": [],
+  "enableExperimentalHash": false,
+  "fileHashMap": {
+    "library/Criando um Segundo Cérebro - Tiago Forte.md": "bcda33788e61c911abd73ca5231f7471619830792460aec400c57e839cae1fac",
+    "slipbox/Sua mente serve para ter ideias, ....md": "66df9b66b757f5fc6092a8d3baa44b17b8d8e6ccf0475f81a1107a94d9aa9bbc"
+  }
+}
