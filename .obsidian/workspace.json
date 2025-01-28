@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "efeb619bf519d7fb",
+        "id": "985b43646b71a7b1",
         "type": "tabs",
         "children": [
           {
-            "id": "ed120b9440f6cac5",
+            "id": "1441a61882bbe119",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -156,17 +156,18 @@
       "daily-notes:Open today's daily note": false
     }
   },
-  "active": "ed120b9440f6cac5",
+  "active": "1441a61882bbe119",
   "lastOpenFiles": [
-    "daily/2025-01-27.md",
-    "library/Criando um Segundo Cérebro - Tiago Forte.md",
+    "daily/2025-01-28.md",
     "slipbox/Otimização e organização na Tapajós Formaturas.md",
+    "library/Criando um Segundo Cérebro - Tiago Forte.md",
+    "slipbox/Organização para ensino na sala de aula.md",
+    "daily/2025-01-27.md",
+    "templates/frontmatter.md",
+    "templates/daily.md",
     "slipbox/Sua mente serve para ter ideias, ....md",
     "slipbox/Why a digital garden?.md",
     "slipbox/David Allen 1.md",
-    "daily/2025-01-28.md",
-    "templates/daily.md",
-    "templates/frontmatter.md",
     "library",
     "attachments",
     "templates",

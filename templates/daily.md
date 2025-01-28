@@ -2,11 +2,11 @@
 tags:
   - daily
 ---
-## Tarefas e Metas
+### Tarefas e Metas
 
 - [ ] 
 
 ---
-#### Related Notes / Bibliography
+### Notas Relacionadas, Pensamentos do dia e Bibliografia
 
 - 
