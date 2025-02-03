@@ -1,3 +1,7 @@
 {
-  "cssTheme": "Primary"
+  "cssTheme": "Primary",
+  "showRibbon": false,
+  "enabledCssSnippets": [
+    "center-cover"
+  ]
 }

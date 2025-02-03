@@ -7,7 +7,14 @@
       "key": " "
     }
   ],
-  "file-explorer:new-file": [],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
   "app:toggle-left-sidebar": [
     {
       "modifiers": [

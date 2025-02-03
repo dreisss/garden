@@ -33,8 +33,6 @@
     "lucideIconPackType": "native",
     "debugMode": false
   },
-  "library": "LiLibraryBig",
-  "daily": "LiCalendarDays",
   "slipbox": "LiInbox",
   "attachments": "LiPaperclip",
   "templates": "LiBookTemplate"

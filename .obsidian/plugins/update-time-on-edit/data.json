@@ -11,9 +11,5 @@
   ],
   "ignoreCreatedFolder": [],
   "enableExperimentalHash": false,
-  "fileHashMap": {
-    "library/Criando um Segundo Cérebro - Tiago Forte.md": "bcda33788e61c911abd73ca5231f7471619830792460aec400c57e839cae1fac",
-    "slipbox/Sua mente serve para ter ideias, ....md": "66df9b66b757f5fc6092a8d3baa44b17b8d8e6ccf0475f81a1107a94d9aa9bbc",
-    "slipbox/Organização para ensino na sala de aula.md": "ba880f1da1257738e5d1012279f348e95b3e85554f36dca8a58e751be918b21a"
-  }
+  "fileHashMap": {}
 }

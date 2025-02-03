@@ -1,9 +1,11 @@
 {
   "promptDelete": false,
-  "showRibbon": false,
   "defaultViewMode": "preview",
   "newFileLocation": "folder",
   "newFileFolderPath": "slipbox",
   "attachmentFolderPath": "attachments",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "tabSize": 2,
+  "readableLineLength": true
 }

@@ -11,6 +11,7 @@
     "cover": "multitext",
     "created_at": "date",
     "updated_at": "date",
-    "authors": "multitext"
+    "authors": "multitext",
+    "links": "multitext"
   }
 }
