@@ -43,5 +43,13 @@
   "editor:toggle-comments": [],
   "editor:toggle-italics": [],
   "markdown:toggle-preview": [],
-  "workspace:undo-close-pane": []
+  "workspace:undo-close-pane": [],
+  "darlal-switcher-plus:switcher-plus:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ]
 }

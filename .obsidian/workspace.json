@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0b3254e8019f496d",
+            "id": "09a45d251aa1b134",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -40,17 +40,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "daily-notes:Open today's daily note": false
+      "obsidian42-brat:BRAT": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "0b3254e8019f496d",
+  "active": "09a45d251aa1b134",
   "lastOpenFiles": [
+    "akljsda.md",
+    "iasdka.md",
     "slipbox/Projeto Solucionários.md",
     "templates/template_literature.md",
     "slipbox/Meu Zettelkasten no Obsidian - Edison Carlos.md",
