@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "eef9febf82e238ad",
+        "id": "181dc300b026f34e",
         "type": "tabs",
         "children": [
           {
-            "id": "09a45d251aa1b134",
+            "id": "aa8f30a26e3c153b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -33,7 +33,24 @@
   "right": {
     "id": "9e78b450d08e33d1",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "81849df12176922c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa71e2cd7f1f55cb",
+            "type": "leaf",
+            "state": {
+              "type": "stats-tracker",
+              "state": {},
+              "icon": "bar-graph",
+              "title": "Daily Stats"
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
@@ -44,11 +61,18 @@
       "obsidian-git:Open Git source control": false,
       "obsidian42-brat:BRAT": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false
     }
   },
-  "active": "09a45d251aa1b134",
+  "active": "aa8f30a26e3c153b",
   "lastOpenFiles": [
+    "slipbox/MINTA OU SEJA ENGANADO (ninguém sabe o que tá fazendo) - Arthur Miller.md",
+    "slipbox/Sindrome do Impostor.md",
+    "slipbox/Arthur Miller.md",
+    "MINTA OU SEJA ENGANADO (ninguém sabe o que tá fazendo) - Arthur Miller.md",
+    "slipbox",
     "akljsda.md",
     "iasdka.md",
     "slipbox/Projeto Solucionários.md",
@@ -71,14 +95,10 @@
     "library/Criando um Segundo Cérebro - Tiago Forte.md",
     "daily/2025-01-28.md",
     "daily/2025-01-27.md",
-    "slipbox/Sua mente serve para ter ideias, ....md",
-    "slipbox/David Allen 1.md",
     "library",
     "attachments",
     "templates",
     "daily",
-    "slipbox",
-    "library/Surely You're Joking, Mr. Feynman!.md",
     "attachments/covers",
     "attachments",
     "library",

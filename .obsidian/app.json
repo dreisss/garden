@@ -5,7 +5,10 @@
   "newFileFolderPath": "slipbox",
   "attachmentFolderPath": "attachments",
   "alwaysUpdateLinks": true,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "tabSize": 2,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "showInlineTitle": true,
+  "foldHeading": true,
+  "foldIndent": true
 }

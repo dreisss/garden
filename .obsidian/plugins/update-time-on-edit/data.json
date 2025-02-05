@@ -1,0 +1,17 @@
+{
+  "dateFormat": "yyyy-MM-dd'T'HH:mm",
+  "enableCreateTime": true,
+  "headerUpdated": "updated_at",
+  "headerCreated": "created_at",
+  "minMinutesBetweenSaves": 1,
+  "ignoreGlobalFolder": [
+    "attachments"
+  ],
+  "ignoreCreatedFolder": [
+    "attachments"
+  ],
+  "enableExperimentalHash": false,
+  "fileHashMap": {
+    "slipbox/MINTA OU SEJA ENGANADO (ninguém sabe o que tá fazendo) - Arthur Miller.md": "cef4ddb6083359d21341a22754ec3e0119c604e985d2adb91557caf0199f4167"
+  }
+}

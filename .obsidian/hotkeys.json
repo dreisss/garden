@@ -1,22 +1,37 @@
 {
-  "command-palette:open": [
+  "command-palette:open": [],
+  "file-explorer:new-file": [],
+  "markdown:add-metadata-property": [],
+  "workspace:close": [
     {
       "modifiers": [
         "Mod"
       ],
-      "key": " "
+      "key": "W"
     }
   ],
-  "file-explorer:new-file": [],
-  "markdown:add-metadata-property": [],
-  "workspace:close": [],
   "workspace:close-window": [],
   "file-explorer:new-file-in-new-pane": [],
   "editor:delete-paragraph": [],
   "editor:follow-link": [],
   "workspace:goto-last-tab": [],
-  "workspace:next-tab": [],
-  "workspace:previous-tab": [],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
   "workspace:goto-tab-1": [],
   "workspace:goto-tab-2": [],
   "workspace:goto-tab-3": [],
@@ -28,7 +43,14 @@
   "editor:insert-link": [],
   "app:go-back": [],
   "app:go-forward": [],
-  "workspace:new-tab": [],
+  "workspace:new-tab": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
   "app:open-help": [],
   "editor:open-link-in-new-leaf": [],
   "editor:open-link-in-new-window": [],
@@ -38,11 +60,33 @@
   "editor:save-file": [],
   "editor:open-search-replace": [],
   "editor:open-search": [],
-  "editor:toggle-bold": [],
+  "editor:toggle-bold": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
   "editor:toggle-checklist-status": [],
   "editor:toggle-comments": [],
-  "editor:toggle-italics": [],
-  "markdown:toggle-preview": [],
+  "editor:toggle-italics": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "I"
+    }
+  ],
+  "markdown:toggle-preview": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "I"
+    }
+  ],
   "workspace:undo-close-pane": [],
   "darlal-switcher-plus:switcher-plus:open": [
     {
@@ -50,6 +94,54 @@
         "Mod"
       ],
       "key": "F"
+    }
+  ],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "V"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open-commands": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": " "
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "J"
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "K"
+    }
+  ],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
     }
   ]
 }

@@ -3,5 +3,7 @@
   "showRibbon": false,
   "enabledCssSnippets": [
     "center-cover"
-  ]
+  ],
+  "showViewHeader": true,
+  "baseFontSize": 18
 }

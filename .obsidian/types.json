@@ -9,8 +9,8 @@
     "read status": "multitext",
     "reading status": "multitext",
     "cover": "multitext",
-    "created_at": "date",
-    "updated_at": "date",
+    "created_at": "datetime",
+    "updated_at": "datetime",
     "authors": "multitext",
     "links": "multitext"
   }
