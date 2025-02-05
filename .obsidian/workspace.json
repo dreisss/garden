@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "181dc300b026f34e",
+        "id": "0784502d793f580d",
         "type": "tabs",
         "children": [
           {
-            "id": "aa8f30a26e3c153b",
+            "id": "e94d893b258a1b9e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -66,7 +66,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "aa8f30a26e3c153b",
+  "active": "e94d893b258a1b9e",
   "lastOpenFiles": [
     "slipbox/MINTA OU SEJA ENGANADO (ninguém sabe o que tá fazendo) - Arthur Miller.md",
     "slipbox/Sindrome do Impostor.md",
