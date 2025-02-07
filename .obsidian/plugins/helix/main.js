@@ -93,6 +93,10 @@ function minorModeStr(minor) {
       return "m";
     case 6:
       return "<space>";
+    case 7:
+      return "[";
+    case 8:
+      return "]";
     default: {
       if (false) {
         throw new Error("Unexpected mode");
@@ -691,6 +695,32 @@ function cmSelToInternal(range, doc) {
     (_a = range.bidiLevel) != null ? _a : void 0
   );
 }
+function removeText(view, { yank, edit } = {}) {
+  const selection = view.state.selection.main;
+  const effects = [];
+  yank != null ? yank : yank = true;
+  if (yank) {
+    effects.push(
+      yankEffect.of([`"`, view.state.doc.slice(selection.from, selection.to)])
+    );
+  }
+  if (edit) {
+    effects.push(MODE_EFF.INSERT);
+  }
+  view.dispatch({
+    effects,
+    changes: {
+      from: selection.from,
+      to: selection.to,
+      insert: ""
+    }
+  });
+  if (!edit && view.state.selection.main.empty) {
+    view.dispatch({
+      selection: internalSelToCM(view.state.selection.main, view.state.doc)
+    });
+  }
+}
 function internalSelToCM(range, doc) {
   var _a;
   const end = nextClusterBreak(doc, range.to, true);
@@ -1082,15 +1112,16 @@ function paste(view, yanked, before, count, reset = true) {
     reset ? { effects: MODE_EFF.NORMAL } : {}
   );
 }
-function insertLineAndEdit(view, below) {
+function openLine(view, below) {
   let from;
   let cursor;
+  const selection = cmSelToInternal(view.state.selection.main, view.state.doc);
   if (below) {
-    const line = view.state.doc.lineAt(view.state.selection.main.to);
+    const line = view.state.doc.lineAt(selection.to);
     from = line.to;
     cursor = from + view.state.lineBreak.length;
   } else {
-    const line = view.state.doc.lineAt(view.state.selection.main.from);
+    const line = view.state.doc.lineAt(selection.from);
     from = line.from;
     cursor = from;
   }
@@ -1102,6 +1133,33 @@ function insertLineAndEdit(view, below) {
     selection: import_state4.EditorSelection.cursor(cursor),
     effects: MODE_EFF.INSERT
   });
+}
+var countCommands = Object.fromEntries(
+  Array.from({ length: 10 }, (_, count) => [
+    String(count),
+    (view, mode) => {
+      const next = mode.count != null ? mode.count * 10 + count : count;
+      if (next === 0) {
+        return;
+      }
+      view.dispatch({
+        effects: modeEffect.of({ ...mode, count: next })
+      });
+    }
+  ])
+);
+function insertLine(view, below) {
+  const mode = view.state.field(modeField);
+  const count = mode.type === 1 ? 1 : cmdCount(mode);
+  const select = mode.type === 4;
+  const selection = view.state.selection.main;
+  const line = view.state.doc.lineAt(below ? selection.to : selection.from);
+  const changes = {
+    from: below ? line.to : line.from,
+    insert: view.state.lineBreak.repeat(count)
+  };
+  const resetEffect = select ? MODE_EFF.SELECT : MODE_EFF.NORMAL;
+  view.dispatch({ changes, effects: resetEffect });
 }
 function cmdCount(mode) {
   var _a;
@@ -1381,20 +1439,7 @@ var helixCommandBindings = {
       const panel = getCommandPanel(view);
       panel.showSearchInput();
     },
-    ...Object.fromEntries(
-      Array.from({ length: 10 }, (_, count) => [
-        String(count),
-        (view, mode) => {
-          const next = mode.count != null ? mode.count * 10 + count : count;
-          if (next === 0) {
-            return;
-          }
-          view.dispatch({
-            effects: modeEffect.of({ ...mode, count: next })
-          });
-        }
-      ])
-    ),
+    ...countCommands,
     [":"](view, mode) {
       view.dispatch({
         effects: modeEffect.of({ ...mode, count: void 0 })
@@ -1446,40 +1491,25 @@ var helixCommandBindings = {
     ["c"]: {
       checkpoint: "temp",
       command(view) {
-        const selection = view.state.selection.main;
-        view.dispatch({
-          effects: [
-            yankEffect.of([
-              `"`,
-              view.state.doc.slice(selection.from, selection.to)
-            ]),
-            MODE_EFF.INSERT
-          ],
-          changes: {
-            from: selection.from,
-            to: selection.to,
-            insert: ""
-          }
-        });
+        removeText(view, { edit: true });
       }
     },
     ["d"]: {
       checkpoint: true,
       command(view) {
-        const selection = view.state.selection.main;
-        view.dispatch({
-          effects: [
-            yankEffect.of([
-              `"`,
-              view.state.doc.slice(selection.from, selection.to)
-            ]),
-            MODE_EFF.NORMAL
-          ],
-          changes: {
-            from: selection.from,
-            to: selection.to
-          }
-        });
+        removeText(view);
+      }
+    },
+    ["Alt-c"]: {
+      checkpoint: "temp",
+      command(view) {
+        removeText(view, { yank: false, edit: true });
+      }
+    },
+    ["Alt-d"]: {
+      checkpoint: true,
+      command(view) {
+        removeText(view, { yank: false });
       }
     },
     ["P"]: {
@@ -1597,13 +1627,13 @@ var helixCommandBindings = {
     ["o"]: {
       checkpoint: "temp",
       command(view) {
-        insertLineAndEdit(view, true);
+        openLine(view, true);
       }
     },
     ["O"]: {
       checkpoint: "temp",
       command(view) {
-        insertLineAndEdit(view, false);
+        openLine(view, false);
       }
     },
     ["f"](view, mode) {
@@ -1913,7 +1943,66 @@ var helixCommandBindings = {
       });
     },
     ["Home"]: cursorToLineStart,
-    ["End"]: cursorToLineEnd
+    ["End"]: cursorToLineEnd,
+    ["J"]: {
+      checkpoint: true,
+      command(view) {
+        const selection = view.state.selection.main;
+        const { doc } = view.state;
+        const startLine = doc.lineAt(selection.from);
+        if (startLine.number >= doc.lines) {
+          return;
+        }
+        let endLine = doc.lineAt(selection.to);
+        const sameLine = endLine.number === startLine.number;
+        if (sameLine) {
+          endLine = doc.line(startLine.number + 1);
+        }
+        let content = "";
+        let removed = 0;
+        for (let lineNo = startLine.number; lineNo <= endLine.number; lineNo++) {
+          let lineContent = startLine.text;
+          if (lineNo > startLine.number) {
+            const lineText = doc.line(lineNo).text;
+            lineContent = lineText.trimStart();
+            let trimmed = lineText.length - lineContent.length;
+            if (!sameLine && lineNo === endLine.number && selection.to - endLine.from < trimmed) {
+              trimmed = selection.to - endLine.from;
+            }
+            removed += trimmed;
+          }
+          content += lineContent;
+          content += lineNo === endLine.number ? "" : " ";
+        }
+        const newTo = sameLine ? selection.to : selection.to - removed - (endLine.number - startLine.number) * (view.state.lineBreak.length - 1);
+        view.dispatch({
+          changes: {
+            from: startLine.from,
+            to: endLine.to,
+            insert: content
+          },
+          selection: selection.anchor > selection.head ? import_state.EditorSelection.range(newTo, selection.from) : import_state.EditorSelection.range(selection.from, newTo)
+        });
+      }
+    },
+    ["["](view, mode) {
+      view.dispatch({
+        effects: modeEffect.of({
+          type: mode.type,
+          minor: 7
+          /* LeftBracket */
+        })
+      });
+    },
+    ["]"](view, mode) {
+      view.dispatch({
+        effects: modeEffect.of({
+          type: mode.type,
+          minor: 8
+          /* RightBracket */
+        })
+      });
+    }
   },
   goto: {
     ["g"](view, mode) {
@@ -2064,6 +2153,24 @@ var helixCommandBindings = {
         effects: mode.type === 0 ? MODE_EFF.NORMAL : MODE_EFF.SELECT
       });
     }
+  },
+  leftBracket: {
+    ...countCommands,
+    ["Space"]: {
+      checkpoint: true,
+      command(view) {
+        insertLine(view, false);
+      }
+    }
+  },
+  rightBracket: {
+    ...countCommands,
+    ["Space"]: {
+      checkpoint: true,
+      command(view) {
+        insertLine(view, true);
+      }
+    }
   }
 };
 function toCodemirrorKeymap(keybindings) {
@@ -2108,8 +2215,16 @@ function toCodemirrorKeymap(keybindings) {
     const gotoCommand = getExplicitCommand(key, keybindings.goto);
     const matchCommand = getExplicitCommand(key, keybindings.match);
     const spaceCommand = getExplicitCommand(key, keybindings.space);
+    const leftBracketCommand = getExplicitCommand(
+      key,
+      keybindings.leftBracket
+    );
+    const rightBracketCommand = getExplicitCommand(
+      key,
+      keybindings.rightBracket
+    );
     const esc = key === "Escape";
-    const isChar = key.length === 1;
+    const isChar = key.length === 1 || key === "Space";
     const command = (view) => {
       var _a;
       const mode = view.state.field(modeField);
@@ -2132,6 +2247,10 @@ function toCodemirrorKeymap(keybindings) {
         result = apply(matchCommand, view, mode);
       } else if (mode.minor === 6 && spaceCommand) {
         result = apply(spaceCommand, view, mode);
+      } else if (mode.minor === 7 && leftBracketCommand) {
+        result = apply(leftBracketCommand, view, mode);
+      } else if (mode.minor === 8 && rightBracketCommand) {
+        result = apply(rightBracketCommand, view, mode);
       } else {
         return false;
       }
@@ -2469,6 +2588,7 @@ function escapeRegex(text) {
 
 // main.ts
 var import_state5 = require("@codemirror/state");
+var import_view3 = require("@codemirror/view");
 var DEFAULT_SETTINGS = {
   enableHelixKeybindings: false,
   // Following the defualt Obsidian behavior, instead of the Helix one.
@@ -2498,12 +2618,18 @@ var HelixPlugin = class extends import_obsidian.Plugin {
   async setEnabled(value, reload = true, print = false) {
     this.settings.enableHelixKeybindings = value;
     this.extensions.length = 0;
-    if (value)
+    if (value) {
+      this.extensions.push(import_state5.Prec.high(import_view3.EditorView.theme({
+        ".cm-hx-block-cursor .cm-hx-cursor": {
+          background: "var(--text-accent)"
+        }
+      })));
       this.extensions.push(import_state5.Prec.high(helix({
         config: {
           "editor.cursor-shape.insert": this.settings.cursorInInsertMode
         }
       })));
+    }
     await this.saveSettings();
     if (reload)
       this.app.workspace.updateOptions();

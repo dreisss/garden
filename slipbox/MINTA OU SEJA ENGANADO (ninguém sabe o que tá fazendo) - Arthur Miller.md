@@ -1,8 +1,10 @@
 ---
 tags:
   - note/literature/video
+  - subject/productivity
+  - subject/career
 created_at: 2025-02-04T21:04
-updated_at: 2025-02-04T23:11
+updated_at: 2025-02-07T19:31
 authors:
   - Arthur Miller
 cover:

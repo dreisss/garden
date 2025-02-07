@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0784502d793f580d",
+        "id": "043491dfcbe073d0",
         "type": "tabs",
         "children": [
           {
-            "id": "e94d893b258a1b9e",
+            "id": "7b40afd853a041f0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -66,9 +66,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "e94d893b258a1b9e",
+  "active": "7b40afd853a041f0",
   "lastOpenFiles": [
+    "slipbox/Adicione \"suco\" nos seus projetos! - Filipe Deschamps.md",
     "slipbox/MINTA OU SEJA ENGANADO (ninguém sabe o que tá fazendo) - Arthur Miller.md",
+    "slipbox/Ser Humano X Ser Rato - Felipe Guisoli.md",
+    "templates/template_literature.md",
+    "templates",
     "slipbox/Sindrome do Impostor.md",
     "slipbox/Arthur Miller.md",
     "MINTA OU SEJA ENGANADO (ninguém sabe o que tá fazendo) - Arthur Miller.md",
@@ -76,7 +80,6 @@
     "akljsda.md",
     "iasdka.md",
     "slipbox/Projeto Solucionários.md",
-    "templates/template_literature.md",
     "slipbox/Meu Zettelkasten no Obsidian - Edison Carlos.md",
     "slipbox/FME - vol. 01.md",
     "slipbox/Untitled 1.md",
@@ -93,11 +96,8 @@
     "slipbox/Otimização e organização na Tapajós Formaturas.md",
     "slipbox/Organização para ensino na sala de aula.md",
     "library/Criando um Segundo Cérebro - Tiago Forte.md",
-    "daily/2025-01-28.md",
-    "daily/2025-01-27.md",
     "library",
     "attachments",
-    "templates",
     "daily",
     "attachments/covers",
     "attachments",

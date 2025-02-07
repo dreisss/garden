@@ -99,7 +99,8 @@
   "workspace:split-horizontal": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "S"
     }
@@ -107,7 +108,8 @@
   "workspace:split-vertical": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "V"
     }

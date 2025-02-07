@@ -5,13 +5,18 @@
   "headerCreated": "created_at",
   "minMinutesBetweenSaves": 1,
   "ignoreGlobalFolder": [
-    "attachments"
+    "attachments",
+    "templates"
   ],
   "ignoreCreatedFolder": [
-    "attachments"
+    "attachments",
+    "templates"
   ],
   "enableExperimentalHash": false,
   "fileHashMap": {
-    "slipbox/MINTA OU SEJA ENGANADO (ninguém sabe o que tá fazendo) - Arthur Miller.md": "b89fa3b7fea5ef406019294c8150db6d0b8acce1054c0c0f31e7ac33b9c86780"
+    "slipbox/MINTA OU SEJA ENGANADO (ninguém sabe o que tá fazendo) - Arthur Miller.md": "8241f69814a0ab9fe0078c7b48cf80997fdc2d5ad41c603a8c672d82f3441faa",
+    "templates/template_literature.md": "b3e75197769c0a7e6b133fcc0b1ba910d50e554eac002036db540487ebd17b88",
+    "slipbox/Ser Humano X Ser Rato - Felipe Guisoli.md": "77047cbb66a57741ed7f26a5301ddd3feff95dbdcc892992049d500d2fd8c1f6",
+    "slipbox/Adicione \"suco\" nos seus projetos! - Filipe Deschamps.md": "50ba20f3986f7516bb5e8ca61eee040a8d9a98dbc2207e77c9e8c7f20d8cf19d"
   }
 }
